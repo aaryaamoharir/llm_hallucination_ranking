@@ -4,7 +4,7 @@ from array import *
 from openai import OpenAIError
 import re
 
-client = OpenAI(api_key='iNSERT_KEY_HERE')
+client = OpenAI(api_key='API_KEY_HERE')
 
 
 quesSAC3Bank = [] 
@@ -237,8 +237,12 @@ def runREF(questionList, startIndex, endIndex, GPTversion):
         # Repeatedly ask j indirect Questions about the reference
         for i in range(repeated_ask):
             # IQ1:
-            IQ1_question = "Who were the authors of the reference, " + baselineResponse + "? Please, list only the author names, formated as - AUTHORS: <firstname> <lastname>, seperated by commas. Do not mention the reference int he answer."
-            IQ1 = askQuestion(DQ1_question, systemContent)
+            #CHANGED: originally had DQ1 question instead of IQ1 question
+            IQ1_question = "Do not answer this in Yes or No format. Instead give me a list. Who were the authors of the reference, " + baselineResponse + "? Please, list only the author names, formated as - AUTHORS: <firstname> <lastname>, seperated by commas. Do not mention the reference int he answer."
+            IQ1 = askQuestion(IQ1_question, systemContent)
+            print("This is the result from the list of authors i think" + IQ1)
+            print("/n")
+
             IQ1s.append(IQ1)
             
         # Find Overlap of IQ responses
