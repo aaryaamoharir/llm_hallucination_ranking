@@ -206,6 +206,7 @@ def runREF(questionList, startIndex, endIndex, GPTversion):
         # Repeatedly ask Direct Questions about the reference
         for i in range(repeated_ask):
             # DQ1: Does the reference exist?
+            # Changed: baselineResponses to baselineResponse
             DQ1_question = "Does the reference " + baselineResponse + "exist? Output just yes/no."
             DQ1 = askQuestion(DQ1_question, systemContent)
             if 'yes' in DQ1.lower():
