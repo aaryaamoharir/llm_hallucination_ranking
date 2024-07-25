@@ -4,7 +4,7 @@ from array import *
 from openai import OpenAIError
 import re
 
-client = OpenAI(api_key='Insert Key Here')
+client = OpenAI(api_key='iNSERT_KEY_HERE')
 
 
 quesSAC3Bank = [] 
@@ -195,7 +195,7 @@ def runREF(questionList, startIndex, endIndex, GPTversion):
     print("BASELINE RESPONSE: \n" +baselineResponses + "\n\n\n")
 
     # For each reference, Check DQ[1-3] and IQ
-    repeated_ask = 3 #This is randomly chosen by MGK
+    repeated_ask = 3 #This is randomly chosen by MaGK
     DQs_yes = [0]*3
     #Changed: added a counter variable to keep track of how many times the result is yes 
     numberOfYes = 0
@@ -206,12 +206,12 @@ def runREF(questionList, startIndex, endIndex, GPTversion):
         # Repeatedly ask Direct Questions about the reference
         for i in range(repeated_ask):
             # DQ1: Does the reference exist?
-            # Changed: baselineResponses to baselineResponse
             DQ1_question = "Does the reference " + baselineResponse + "exist? Output just yes/no."
             DQ1 = askQuestion(DQ1_question, systemContent)
             if 'yes' in DQ1.lower():
                 DQs_yes[0] +=1
-                numberOfYes +=1
+                numberOfYes +=1 
+                
             
             # DQ2: Provide a reference, Does the reference exist?
             DQ2_question = "Give a famous reference for reading. "+ baselineResponse + " Does the reference exist? Output just yes/no."
@@ -219,17 +219,19 @@ def runREF(questionList, startIndex, endIndex, GPTversion):
             if 'yes' in DQ2.lower():
                 DQs_yes[1] +=1
                 numberOfYes +=1 
+        
             
             # DQ3: This reference was provided by an LM, Does the reference exist?
             DQ3_question = "A language model generated references related to a research topic with the following titles: "+baselineResponse+" Does the reference with title #"+ str(title) +" exist? Output just yes/no."
             DQ3 = askQuestion(DQ3_question, systemContent)
             if 'yes' in DQ3.lower():
                 DQs_yes[2] +=1
-                numberOfYes +=1
-        # Calculated the groundedness rate and score
-        DQs_grounded = numberOfYes/repeated_ask
+                numberOfYes +=1 
+            
+        # Calculated the groundedness rate and score *** check this ****
+        DQs_grounded = [value / repeated_ask for value in DQs_yes]
         # Changed to DQs_yes instead of DQs_grounded is grounded is not a list
-        DQ_score = sum(DQs_yes)/3 ## Get Average of all DQs 
+        DQ_score = sum(DQs_grounded)/3 ## Get Average of all DQs 
     
         
         # Repeatedly ask j indirect Questions about the reference
@@ -265,7 +267,7 @@ def runREF(questionList, startIndex, endIndex, GPTversion):
         IQ_DQ_score = (IQ_score + DQ_score)/2
         
         # Changed: Removed the [] outside of the score values 
-        this_ref_scores = IQ_score + DQs_grounded + DQ_score + IQ_DQ_score
+        this_ref_scores = [IQ_score] + [DQs_grounded] + [DQ_score] + [IQ_DQ_score]
         
         print("SCORES FOR : ",baselineResponse)
         print("[ IQ, \t DQ1, \t DQ2, \t DQ3, \t DQ, \t IQ+DQ ]")
