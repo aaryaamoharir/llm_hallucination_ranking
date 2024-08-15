@@ -1,10 +1,13 @@
+#check it with gpt4 
+#check it with the different datasets 
+
 import openai
 from openai import OpenAI
 from array import *
 from openai import OpenAIError
 import re
 
-client = OpenAI('YOUR_API_KEY_HERE')
+client = OpenAI(api_key='ENTER KEY HERE')
 
 
 quesSAC3Bank = [] 
@@ -200,9 +203,10 @@ def runREF(questionList, startIndex, endIndex, GPTversion):
     #Changed: added a counter variable to keep track of how many times the result is yes 
     numberOfYes = 0
     IQ1s = []
-
+    baselineResponsesString = baselineResponses
     baselineResponses = baselineResponses.split('\n') ## This is not tested and may need to be reworked
     for title, baselineResponse in enumerate(baselineResponses): # For each reference
+        
         # Repeatedly ask Direct Questions about the reference
         for i in range(repeated_ask):
             # DQ1: Does the reference exist?
@@ -222,7 +226,7 @@ def runREF(questionList, startIndex, endIndex, GPTversion):
         
             
             # DQ3: This reference was provided by an LM, Does the reference exist?
-            DQ3_question = "A language model generated references related to a research topic with the following titles: "+baselineResponse+" Does the reference with title #"+ str(title) +" exist? Output just yes/no."
+            DQ3_question = "A language model generated references related to a research topic with the following titles: "+baselineResponsesString+" Does the reference with title #"+ str(title + 1) +" exist? Output just yes/no."
             DQ3 = askQuestion(DQ3_question, systemContent, client)
             if 'yes' in DQ3.lower():
                 DQs_yes[2] +=1
@@ -239,14 +243,14 @@ def runREF(questionList, startIndex, endIndex, GPTversion):
         for i in range(repeated_ask):
             # IQ1:
             #CHANGED: originally had DQ1 question instead of IQ1 question
-            clientUpdated = OpenAI(client = OpenAI('YOUR_API_KEY_#2_HERE')
-            IQ1_question = "Do not answer this in Yes or No format. Instead give me a list. Who were the authors of the reference, " + baselineResponse + "? Please, list only the author names, formated as - AUTHORS: <firstname> <lastname>, seperated by commas. Do not mention the reference int he answer."
+            clientUpdated = OpenAI(api_key='ENTER KEY HERE')
+            IQ1_question = "Do not answer this in Yes or No format. Instead give me a list. Who were the authors of the reference, " + baselineResponse + "? Please, list only the author names, formatted as - AUTHORS: <firstname> <lastname>, separated by commas. Do not mention the reference in the answer."
             IQ1 = askQuestion(IQ1_question, systemContent, clientUpdated)
-            print("This is the result from the list of authors i think" + IQ1)
+            print("This is the result from the list of authors" + IQ1)
             print("/n")
 
             IQ1s.append(IQ1)
-            print("These are the IQ's currenrntly being stored" + '\n')
+            #print("These are the IQ's currently being stored" + '\n')
             print(IQ1s)
             
         # Find Overlap of IQ responses
@@ -257,7 +261,7 @@ def runREF(questionList, startIndex, endIndex, GPTversion):
             for j in range(i+1, len(this_IQs)):
                 IQ_i = this_IQs[i]
                 IQ_j = this_IQs[j]
-                overlap_question = "Below are what should be two lists of authors. On a scale of 0-100%, how much overlap is there in the author names (ignore minor variations such as middle initials or accents)? Answer with a number between 0 and 100. Also, provide a justification. Note: if either of them is not a list of authros, output 0. Output format shold be ANS: <ans> JUSTIFICATION: <justification>. \n" + str(IQ_i) + "\n" + str(IQ_j)
+                overlap_question = "Below are what should be two lists of authors. On a scale of 0-100%, how much overlap is there in the author names (ignore minor variations such as middle initials or accents)? Answer with a number between 0 and 100. Also, provide a justification. Note: if either of them is not a list of authors, output 0. Output format should be ANS: <ans> JUSTIFICATION: <justification>. \n" + str(IQ_i) + "\n" + str(IQ_j)
                 overlap_IQ = askQuestion(overlap_question, systemContent, clientUpdated)
                 print("Overlap IQ Response:", overlap_IQ)
                 # Changed: added a match variable to group them only if a number is found 
@@ -289,6 +293,6 @@ def runREF(questionList, startIndex, endIndex, GPTversion):
 
 runSAC3(quesSAC3Bank, 0, len(quesSAC3Bank), "gpt-3.5-turbo-0125")
 runCoVe(quesCoVEBank, 0, len(quesCoVEBank), "gpt-3.5-turbo-0125")
-runREF(quesREFBank, 0, len(quesREFBank), "gpt-3.5-turbo-0125")
+#runREF(quesREFBank, 0, len(quesREFBank), "gpt-3.5-turbo-0125")
 
 # future tasks: implement risk score, implement two more methods (based on provided papers)
