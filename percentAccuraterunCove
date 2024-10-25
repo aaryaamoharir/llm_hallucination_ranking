@@ -23,3 +23,66 @@
 12. **Vivo launched its first smartphone in India in 2014...**: This statement is true. Vivo entered the Indian smartphone market in 2014. **Accuracy: 100%**
 
 --------------------------
+
+1. **DVD Pack Discount Calculation**: 
+   - Original price: $76
+   - Discount: $25
+   - Final price after discount: $76 - $25 = $51
+   - **True**: 100%
+
+2. **Cost of the Candy Bar**:
+   - Initial money: $4
+   - Money left: $3
+   - Cost of the candy bar: $4 - $3 = $1
+   - **True**: 100%
+
+3. **Salty Cookies Remaining**:
+   - Initial cookies: 26
+   - Cookies eaten: 9
+   - Remaining cookies: 26 - 9 = 17
+   - **True**: 100%
+
+4. **Children Who Got Off the Bus**:
+   - Initial children: 43
+   - Remaining children: 21
+   - Children who got off: 43 - 21 = 22
+   - **True**: 100%
+
+5. **Children Getting On and Off the Bus**:
+   - Initially there were 28 children on the bus.
+   - 82 children got on, leaving 30 altogether after the stop.
+   - Using the equation, the number who got off is 80.
+   - More children got on than off: 82 - 80 = 2
+   - **False Calculation**: There are logical inconsistencies in the initial description.
+   - **False**: 0%
+
+6. **ATM Withdrawal vs Supermarket Spending**:
+   - Original money: $3
+   - ATM withdrawal: $49 -> Total: $52
+   - Money left after supermarket: $49 -> Spent: $52 - $49 = $3
+   - Difference from ATM and spending: $49 - $3 = $46
+   - **True**: 100%
+
+7. **Jerry's Action Figures**:
+   - Total now: 10
+   - Added: 7
+   - Initially had: 10 - 7 = 3
+   - **True**: 100%
+
+8. **Cookies Paco Ate vs Gave Away**:
+   - Originally had 41 cookies
+   - Gave away: 9
+   - Ate: 18
+   - Difference: 18 - 9 = 9
+   - **True**: 100%
+
+9. **Mary Adding Flour**:
+   - Recipe requires: 10 cups
+   - Already added: 6 cups
+   - Needs to add: 10 - 6 = 4 cups
+   - **True**: 100%
+
+10. **Waiter's Initial Customer Count**:
+    - 9 customers left; 12 remained
+    - Initial customers: 9 + 12 = 21
+    - **True**: 100%
