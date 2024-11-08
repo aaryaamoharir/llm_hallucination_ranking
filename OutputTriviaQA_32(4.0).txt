@@ -1,3 +1,4 @@
+aaryaamoharir@Aaryaas-MBP HallucinationRisk % /usr/local/bin/python3 /Users/aaryaamoharir/Desktop/Projects/HallucinationRisk/TriviaQA_32.py
 --------------------------------------------------
 SAC3
 --------------------------------------------------
@@ -10,7 +11,7 @@ Q: Where in England was Dame Judi Dench born?
 2) Dame Judi Dench was born in Heworth, a suburb of York, England.
 ---
 
-3) Dame Judi Dench was born in Heworth, York, England.
+3) Dame Judi Dench was born in York, England.
 ---
 
 
@@ -21,25 +22,36 @@ Q: What is the birthplace of Dame Judi Dench?
 Dame Judi Dench was born in York, England.
 
 Q: Can you tell me about the location where Dame Judi Dench was born?
-Dame Judi Dench was born in York, England. York is a historic city in North Yorkshire, known for its rich heritage, medieval architecture, and landmarks such as York Minster, a large Gothic cathedral. The city has a significant history dating back to Roman times and continues to be a popular tourist destination.
+Dame Judi Dench was born in York, England. York is a historic city in North Yorkshire, known for its rich history dating back to Roman times, its medieval city walls, the York Minster cathedral, and its well-preserved old town with narrow streets. The city has a distinct charm with a blend of ancient architecture and modern amenities, making it a significant tourist destination in the UK.
 
 Q: In which city in England was Dame Judi Dench born?
 Dame Judi Dench was born in York, England.
 
+Are the following Question-Answer (QA) pairs semantically equivalent?
+Comparing QA Pair 1 and QA Pair 2:
+Guess: Yes  
+Probability: 0.9
+---
 
+Comparing QA Pair 1 and QA Pair 3:
+Guess: Yes  
+Probability: 0.95
+---
 
- ----- END OF QUESTION ----- 
-
+Comparing QA Pair 2 and QA Pair 3:
+Guess: Yes  
+Probability: 0.9
+---
 
 Self-Consistency
 Q: In which decade did Billboard magazine first publish an American hit chart?
-1) Billboard magazine first published an American hit chart in the 1930s. Specifically, they introduced the "Hit Parade" chart in 1936.
+1) Billboard magazine first published an American hit chart in the 1940s. Specifically, they introduced their first national music chart, the "Hillbilly Hits," in 1944 and later the first "Billboard Hot 100" was published in August 1958.
 ---
 
-2) Billboard magazine first published an American hit chart in the 1930s. Specifically, they introduced their first chart, the "Hit Parade," in 1936.
+2) Billboard magazine first published an American hit chart in the 1930s. Specifically, their first music chart was introduced in 1936.
 ---
 
-3) Billboard magazine first published an American hit chart in the 1930s. Specifically, their first music chart, the "Hit Parade," was introduced in 1936.
+3) Billboard magazine first published an American hit chart in the 1930s. Specifically, they introduced the "Hit Parade" in 1936, which was one of the earliest forms of music charts ranking popular songs.
 ---
 
 
@@ -47,18 +59,29 @@ Q: In which decade did Billboard magazine first publish an American hit chart?
 
 SAC3
 Q: What decade marks the inception of Billboard magazine's American hit chart?
-Billboard magazine's American hit chart, known as the "Billboard Hot 100," was first published in 1958. However, Billboard began charting popular music in various forms earlier, with the first charts related to music appearing in the 1930s.
+The inception of Billboard magazine's American hit chart, specifically the "Billboard Hot 100," can be traced back to the 1950s. The Hot 100 chart was first published on August 4, 1958. However, Billboard had been publishing music charts since the 1940s, but the Hot 100 became the standard for tracking song popularity in the United States.
 
 Q: Can you provide the decade when Billboard first started publishing American hit charts?
-Billboard first started publishing American hit charts in the 1940s. The magazine introduced its "Best Sellers in Stores" chart in 1940.
+Billboard first started publishing American hit charts in the 1940s. Specifically, the first chart resembling the modern-day format was introduced in 1940.
 
 Q: In which decade did Billboard magazine begin its American hit chart publication?
-Billboard magazine began publishing its American hit chart in the 1940s. Specifically, the first chart that resembles the modern Billboard Hot 100 was introduced in 1940, when Billboard released its first "Music Popularity Chart," entitled the "National List of Best Selling Retail Records."
+Billboard magazine began its American hit chart publication in the 1940s. The first "Music Popularity Chart" was published in 1940.
 
+Are the following Question-Answer (QA) pairs semantically equivalent?
+Comparing QA Pair 1 and QA Pair 2:
+Guess: not equivalent  
+Probability: 0.9
+---
 
+Comparing QA Pair 1 and QA Pair 3:
+Guess: not equivalent  
+Probability: 0.9
+---
 
- ----- END OF QUESTION ----- 
-
+Comparing QA Pair 2 and QA Pair 3:
+Guess: Yes  
+Probability: 0.95
+---
 
 Self-Consistency
 Q: From which country did Angola achieve independence in 1975?
@@ -84,17 +107,28 @@ Angola gained independence from Portugal in 1975.
 Q: From which colonial power did Angola gain its independence in 1975?
 Angola gained its independence from Portugal in 1975.
 
+Are the following Question-Answer (QA) pairs semantically equivalent?
+Comparing QA Pair 1 and QA Pair 2:
+Guess: Yes  
+Probability: 0.95
+---
 
+Comparing QA Pair 1 and QA Pair 3:
+Guess: Yes  
+Probability: 0.95
+---
 
- ----- END OF QUESTION ----- 
-
+Comparing QA Pair 2 and QA Pair 3:
+Guess: Yes  
+Probability: 0.95
+---
 
 Self-Consistency
 Q: Which city does David Soul come from?
 1) David Soul was born in Chicago, Illinois.
 ---
 
-2) David Soul was born in Chicago, Illinois. However, he grew up primarily in Sioux Falls, South Dakota.
+2) David Soul was born in Chicago, Illinois.
 ---
 
 3) David Soul was born in Chicago, Illinois.
@@ -113,20 +147,31 @@ David Soul was born in Chicago, Illinois.
 Q: In which city was David Soul originally from?
 David Soul was originally from Chicago, Illinois.
 
+Are the following Question-Answer (QA) pairs semantically equivalent?
+Comparing QA Pair 1 and QA Pair 2:
+Guess: Yes  
+Probability: 0.95
+---
 
+Comparing QA Pair 1 and QA Pair 3:
+Guess: Yes  
+Probability: 0.95
+---
 
- ----- END OF QUESTION ----- 
-
+Comparing QA Pair 2 and QA Pair 3:
+Guess: Yes  
+Probability: 0.95
+---
 
 Self-Consistency
 Q: Who won Super Bowl XX?
-1) The Chicago Bears won Super Bowl XX. They defeated the New England Patriots 46-10 on January 26, 1986. The game was played at the Louisiana Superdome in New Orleans, and the Bears' dominant defense was a key factor in their victory.
+1) The Chicago Bears won Super Bowl XX. They defeated the New England Patriots with a score of 46-10 on January 26, 1986. The game was played at the Louisiana Superdome in New Orleans.
 ---
 
-2) The Chicago Bears won Super Bowl XX. They defeated the New England Patriots with a score of 46-10 on January 26, 1986. The game was held at the Louisiana Superdome in New Orleans, Louisiana.
+2) The Chicago Bears won Super Bowl XX. They defeated the New England Patriots with a score of 46-10 on January 26, 1986. The game was played at the Louisiana Superdome in New Orleans, Louisiana.
 ---
 
-3) The Chicago Bears won Super Bowl XX. They defeated the New England Patriots 46-10 on January 26, 1986, at the Louisiana Superdome in New Orleans. This victory marked the Bears' first Super Bowl win.
+3) The Chicago Bears won Super Bowl XX. They defeated the New England Patriots with a dominant score of 46-10 on January 26, 1986. The game took place at the Louisiana Superdome in New Orleans, and the Bears' defense, known as the "46 Defense," played a significant role in their victory.
 ---
 
 
@@ -134,28 +179,39 @@ Q: Who won Super Bowl XX?
 
 SAC3
 Q: What team emerged victorious in Super Bowl XX?
-The Chicago Bears emerged victorious in Super Bowl XX. They defeated the New England Patriots with a commanding score of 46-10. The game took place on January 26, 1986, at the Louisiana Superdome in New Orleans, Louisiana. The Bears' dominant defense, known as the "46 Defense," was a significant factor in their victory.
+The Chicago Bears emerged victorious in Super Bowl XX. They defeated the New England Patriots with a decisive score of 46-10. The game took place on January 26, 1986, at the Louisiana Superdome in New Orleans, Louisiana. The Bears' defense, led by coordinator Buddy Ryan and featuring players like Richard Dent and Mike Singletary, was especially dominant in this game.
 
 Q: Can you tell me the winner of Super Bowl XX?
-Super Bowl XX was won by the Chicago Bears. They defeated the New England Patriots with a score of 46-10 on January 26, 1986. The game was held at the Louisiana Superdome in New Orleans, Louisiana. The Bears' dominant defense and performance led them to a significant victory.
+The winner of Super Bowl XX was the Chicago Bears. They defeated the New England Patriots with a dominant score of 46-10 on January 26, 1986. The game was played at the Louisiana Superdome in New Orleans, Louisiana. The Bears' defense, known as the "46 defense" and orchestrated by defensive coordinator Buddy Ryan, was especially notable during the game.
 
 Q: Which team claimed the title in Super Bowl XX?
-The Chicago Bears won Super Bowl XX. They defeated the New England Patriots 46-10 on January 26, 1986. The game was played at the Louisiana Superdome in New Orleans, and the Bears' dominant defense, known as the "46 Defense," was a key factor in their victory.
+The Chicago Bears won Super Bowl XX. They defeated the New England Patriots with a score of 46-10. The game took place on January 26, 1986, at the Louisiana Superdome in New Orleans. The Bears were led by head coach Mike Ditka and had a dominant defense known as the "46 defense," coordinated by Buddy Ryan.
 
+Are the following Question-Answer (QA) pairs semantically equivalent?
+Comparing QA Pair 1 and QA Pair 2:
+Guess: Yes  
+Probability: 0.95
+---
 
+Comparing QA Pair 1 and QA Pair 3:
+Guess: Yes  
+Probability: 0.9
+---
 
- ----- END OF QUESTION ----- 
-
+Comparing QA Pair 2 and QA Pair 3:
+Guess: Yes  
+Probability: 0.9
+---
 
 Self-Consistency
 Q: Which was the first European country to abolish capital punishment?
-1) The first European country to abolish capital punishment was San Marino. It abolished the death penalty for ordinary crimes in 1848 and for all crimes in 1865.
+1) The first European country to abolish capital punishment was San Marino, which did so for ordinary crimes in 1848 and for all crimes in 1865.
 ---
 
-2) The first European country to abolish capital punishment was San Marino. It abolished the death penalty for ordinary crimes in 1865 and for all crimes in 1876.
+2) The first European country to abolish capital punishment was San Marino. It formally abolished the death penalty in 1865, making it the earliest European country to do so. Although San Marino had not conducted any executions since the 17th century, it officially removed capital punishment from its legal system in the mid-19th century.
 ---
 
-3) The first European country to abolish capital punishment was Portugal. Portugal abolished the death penalty for civil crimes in 1867, making it a pioneer in the movement against capital punishment in Europe.
+3) The first European country to abolish capital punishment was the Grand Duchy of Tuscany. The Grand Duke Pietro Leopoldo, who later became the Holy Roman Emperor Leopold II, abolished the death penalty on November 30, 1786. This act was part of a broader series of reforms aimed at modernizing the state and is considered a significant milestone in the history of abolishing capital punishment.
 ---
 
 
@@ -163,28 +219,39 @@ Q: Which was the first European country to abolish capital punishment?
 
 SAC3
 Q: What was the first European nation to eliminate capital punishment?
-The first European nation to eliminate capital punishment for all crimes was San Marino. They abolished the death penalty in 1865. However, if considering the first de facto abolition, the Grand Duchy of Tuscany (now part of Italy) was the first region to abolish the death penalty in practice on November 30, 1786, under the rule of the Habsburg-Lorraine dynasty, led by Grand Duke Leopold II.
+The first European nation to eliminate capital punishment was the Grand Duchy of Tuscany. On November 30, 1786, under the rule of Grand Duke Leopold II (later Holy Roman Emperor Leopold II), Tuscany officially abolished the death penalty, becoming the first modern state to do so. This decision was part of broader legal reforms inspired by Enlightenment principles.
 
 Q: Can you provide the name of the first European country that abolished capital punishment?
-The first European country to abolish capital punishment was Portugal. It abolished the death penalty for civil crimes in 1867.
+The first European country to abolish capital punishment was San Marino. It abolished the death penalty for ordinary crimes in 1848 and for all crimes in 1865.
 
 Q: In which European country was capital punishment first abolished?
-Capital punishment was first abolished in European modern times by the Grand Duchy of Tuscany. In 1786, under the rule of Grand Duke Leopold II, Tuscany became the first state to officially abolish the death penalty for all crimes. This move was part of a series of reforms inspired by Enlightenment ideas.
+Capital punishment was first abolished in the European country of the Grand Duchy of Tuscany. This occurred on November 30, 1786, under the rule of Peter Leopold, who would later become Holy Roman Emperor Leopold II. He reformed the penal code with the "Leopoldine Proclamation," which abolished the death penalty, making Tuscany the first sovereign state in the world to do so.
 
+Are the following Question-Answer (QA) pairs semantically equivalent?
+Comparing QA Pair 1 and QA Pair 2:
+Guess: not equivalent  
+Probability: 0.95
+---
 
+Comparing QA Pair 1 and QA Pair 3:
+Guess: Yes  
+Probability: 0.9
+---
 
- ----- END OF QUESTION ----- 
-
+Comparing QA Pair 2 and QA Pair 3:
+Guess: No  
+Probability: 1.0
+---
 
 Self-Consistency
 Q: In which country did the widespread use of ISDN begin in 1988?
-1) The widespread use of ISDN (Integrated Services Digital Network) began in Germany in 1988. The German postal service, Deutsche Bundespost, was a pioneer in implementing and promoting ISDN services during that time.
+1) The widespread use of ISDN (Integrated Services Digital Network) began in Japan in 1988. Japan was one of the first countries to implement this technology on a large scale, aiming to enhance telecommunications by integrating voice and data services over digital lines.
 ---
 
-2) The widespread use of ISDN (Integrated Services Digital Network) began in Japan in 1988.
+2) The widespread use of ISDN (Integrated Services Digital Network) began in 1988 in Japan. Japan was one of the first countries to implement and popularize ISDN technology during that period.
 ---
 
-3) The widespread use of ISDN (Integrated Services Digital Network) began in Japan in 1988. Japan was one of the first countries to implement ISDN on a large scale, leading the way in digital network services.
+3) The widespread use of ISDN (Integrated Services Digital Network) began in Germany in 1988. The country's telecommunications provider at the time, Deutsche Bundespost, was instrumental in its deployment, setting a precedent for digital communication technologies.
 ---
 
 
@@ -192,22 +259,33 @@ Q: In which country did the widespread use of ISDN begin in 1988?
 
 SAC3
 Q: What country first adopted widespread use of ISDN in 1988?
-Japan was the first country to adopt widespread use of ISDN (Integrated Services Digital Network) in 1988. The implementation marked a significant step in telecommunications by providing digital transmission of voice and data over ordinary phone lines.
+Germany was the first country to adopt widespread use of Integrated Services Digital Network (ISDN) in 1988. The German telecommunications company, Deutsche Bundespost, played a pivotal role in implementing ISDN technology, which allowed for the integrated transmission of voice and data over regular telephone lines.
 
 Q: Can you tell me which country began using ISDN widely in 1988?
-Japan began using Integrated Services Digital Network (ISDN) widely in 1988. The country’s adoption was significant as it marked one of the earliest large-scale implementations of ISDN technologies globally, allowing for the transmission of voice, video, and data across the same lines.
+Germany began using ISDN (Integrated Services Digital Network) widely in 1988. The Deutsche Bundespost, which was the German postal and telecommunications authority at the time, was instrumental in pioneering the deployment of ISDN technology, making Germany one of the first countries to adopt it extensively.
 
 Q: In which nation did ISDN see widespread implementation starting in 1988?
-ISDN saw widespread implementation starting in 1988 in Germany. The country was among the first to adopt the Integrated Services Digital Network on a large scale, which provided improved telecommunications infrastructure and digital data transmission capabilities.
+ISDN (Integrated Services Digital Network) saw widespread implementation starting in 1988 in Japan. The country's telecommunications infrastructure advancements allowed for the rapid deployment of ISDN services, enabling the integration of voice and data services over traditional telephone lines.
 
+Are the following Question-Answer (QA) pairs semantically equivalent?
+Comparing QA Pair 1 and QA Pair 2:
+Guess: Yes  
+Probability: 0.95
+---
 
+Comparing QA Pair 1 and QA Pair 3:
+Guess: No  
+Probability: 0.9
+---
 
- ----- END OF QUESTION ----- 
-
+Comparing QA Pair 2 and QA Pair 3:
+Guess: No  
+Probability: 0.95
+---
 
 Self-Consistency
 Q: What is Bruce Willis' real first name?
-1) Bruce Willis' real first name is Walter. His full birth name is Walter Bruce Willis.
+1) Bruce Willis' real first name is Walter. His full name is Walter Bruce Willis.
 ---
 
 2) Bruce Willis' real first name is Walter. His full name is Walter Bruce Willis.
@@ -224,15 +302,26 @@ Q: What is the birth name of Bruce Willis?
 Bruce Willis was born Walter Bruce Willis.
 
 Q: Can you provide the first name Bruce Willis was given at birth?
-Bruce Willis was given the first name "Walter" at birth. His full birth name is Walter Bruce Willis.
+Bruce Willis was given the first name Walter at birth. His full birth name is Walter Bruce Willis.
 
 Q: In which name was Bruce Willis born?
-Bruce Willis was born as Walter Bruce Willis.
+Bruce Willis was born Walter Bruce Willis.
 
+Are the following Question-Answer (QA) pairs semantically equivalent?
+Comparing QA Pair 1 and QA Pair 2:
+Guess: Yes  
+Probability: 0.9
+---
 
+Comparing QA Pair 1 and QA Pair 3:
+Guess: Yes  
+Probability: 0.95
+---
 
- ----- END OF QUESTION ----- 
-
+Comparing QA Pair 2 and QA Pair 3:
+Guess: Not equivalent  
+Probability: 0.8
+---
 
 Self-Consistency
 Q: Which William wrote the novel 'Lord Of The Flies'?
@@ -242,7 +331,7 @@ Q: Which William wrote the novel 'Lord Of The Flies'?
 2) The novel 'Lord of the Flies' was written by William Golding.
 ---
 
-3) The novel "Lord of the Flies" was written by William Golding.
+3) The novel 'Lord of the Flies' was written by William Golding.
 ---
 
 
@@ -253,25 +342,36 @@ Q: Who is the author of the novel 'Lord Of The Flies'?
 The author of the novel 'Lord of the Flies' is William Golding.
 
 Q: Can you tell me the full name of the William who wrote 'Lord Of The Flies'?
-Yes, the full name of the author who wrote "Lord of the Flies" is William Golding. His complete name is Sir William Gerald Golding.
+Certainly! The full name of the author who wrote "Lord of the Flies" is Sir William Gerald Golding.
 
 Q: What is the complete name of the William who authored 'Lord Of The Flies'?
-The complete name of the author who wrote 'Lord of the Flies' is Sir William Gerald Golding.
+The complete name of the author of "Lord of the Flies" is Sir William Gerald Golding.
 
+Are the following Question-Answer (QA) pairs semantically equivalent?
+Comparing QA Pair 1 and QA Pair 2:
+Guess: No  
+Probability: 0.9
+---
 
+Comparing QA Pair 1 and QA Pair 3:
+Guess: Not equivalent  
+Probability: 0.9
+---
 
- ----- END OF QUESTION ----- 
-
+Comparing QA Pair 2 and QA Pair 3:
+Guess: Yes  
+Probability: 0.95
+---
 
 Self-Consistency
 Q: Which American-born Sinclair won the Nobel Prize for Literature in 1930?
-1) Sinclair Lewis, an American-born novelist, won the Nobel Prize for Literature in 1930. He was recognized for his powerful and vivid art of description and his ability to create, with wit and humor, new types of characters. Lewis was the first American author to receive the Nobel Prize in Literature.
+1) The American-born Sinclair who won the Nobel Prize for Literature in 1930 is Sinclair Lewis. He was the first American to receive the prize in literature, recognized for his robust and critical portrayal of American society and culture in works such as "Main Street" and "Babbitt."
 ---
 
-2) The American-born Sinclair who won the Nobel Prize for Literature in 1930 was Sinclair Lewis. He was the first American to receive the award, recognized for his insightful and critical depictions of American society in novels like "Main Street" and "Babbitt."
+2) The American-born writer Sinclair Lewis won the Nobel Prize for Literature in 1930. He was the first American to receive this prestigious award.
 ---
 
-3) The American-born author who won the Nobel Prize for Literature in 1930 was Sinclair Lewis.
+3) Sinclair Lewis, an American-born author, won the Nobel Prize in Literature in 1930. He was the first American writer to receive this prestigious award. Lewis is best known for his satirical and critical portrayals of American society, with notable works including "Main Street," "Babbitt," and "Arrowsmith."
 ---
 
 
@@ -279,25 +379,45 @@ Q: Which American-born Sinclair won the Nobel Prize for Literature in 1930?
 
 SAC3
 Q: What are the major achievements of Sinclair who won the Nobel Prize for Literature in 1930?
-Sinclair Lewis, who was awarded the Nobel Prize in Literature in 1930, is renowned for several major achievements in his literary career. He was the first American writer to receive this prestigious award, which highlighted the impact and significance of his work. Some of his major achievements include:
+Sinclair Lewis, who won the Nobel Prize in Literature in 1930, is best known for his sharp social critiques and his ability to capture the spirit of early 20th-century America. Some of his major achievements include:
 
-1. **"Main Street" (1920)**: This novel is perhaps his most famous work, critically examining the narrow-mindedness and materialism of small-town America. It became a bestseller and established Lewis as a leading literary figure.
+1. **"Main Street" (1920)**: This novel is a satirical look at small-town life in America. It critiques the narrow-mindedness and conformity found in the fictional town of Gopher Prairie. "Main Street" was a significant success and is often considered his breakthrough work.
 
-2. **"Babbitt" (1922)**: Through the character of George F. Babbitt, Lewis satirized the conformity and consumerism of middle-class American life, further cementing his reputation as a keen social critic.
+2. **"Babbitt" (1922)**: This novel further solidified Lewis's reputation for his critical portrayal of American society. It tells the story of George F. Babbitt, a middle-class real estate agent whose life reflects the conformist and materialistic values of his time.
 
-3. **"Arrowsmith" (1925)**: This novel earned Lewis the Pulitzer Prize, which he famously declined. It chronicles the life of an idealistic doctor and reflects on medical research and practice, underscoring Lewis's interest in professionalism versus commercialism.
+3. **"Arrowsmith" (1925)**: Awarded the Pulitzer Prize for Fiction, which Lewis declined, "Arrowsmith" details the life of a doctor and explores themes of scientific discovery and medical ethics. 
 
-4. **"Elmer Gantry" (1927)**: With this work, Lewis tackled religious hypocrisy through the story of a corrupt evangelist, leading to widespread controversy and acclaim.
+4. **"Elmer Gantry" (1927)**: This novel satirizes religious hypocrisy and evangelism through the character Elmer Gantry, a rogue preacher.
 
-5. **"Dodsworth" (1929)**: This novel focuses on a retired automobile tycoon who travels to Europe, exploring themes of cultural disparity and personal transformation.
+5. **"Dodsworth" (1929)**: A novel about a successful American businessman finding himself adrift in post-World War I Europe, "Dodsworth" examines themes of identity and change.
 
-Sinclair Lewis's achievements lie not only in his narrative prowess but also in his ability to critique and illuminate American society, addressing issues such as capitalism, materialism, and complacency. His works continue to be studied for their incisive social commentary.
+Sinclair Lewis was recognized for his vivid and insightful portrayal of American social dynamics, his innovative narrative style, and his courage in addressing controversial issues. His body of work considerably influenced American literature and offered compelling critiques of societal norms.
 
 Q: Can you provide details about Sinclair who won the Nobel Prize for Literature in 1930?
-Sinclair Lewis was the American novelist who won the Nobel Prize in Literature in 1930. He was the first American to receive this prestigious award in literature. Lewis was recognized for his vigorous and graphic art of description and his ability to create, with wit and humor, new types of characters. Some of his most famous works include "Main Street" (1920), a satirical novel that critiques small-town life in America, and "Babbitt" (1922), which focuses on the emptiness of middle-class consumer culture. Other notable works include "Arrowsmith" (1925), "Elmer Gantry" (1927), and "Dodsworth" (1929). Lewis's writing often addressed the themes of American capitalism, social conformity, and critique of modern culture.
+Certainly! Upton Sinclair was the American author who won the Nobel Prize in Literature in 1930. However, it seems there is a little mix-up here; it was actually Sinclair Lewis, not Upton Sinclair, who won the prize that year.
+
+Sinclair Lewis was an American novelist and playwright known for his critical views of American capitalism and materialism. He became the first American to receive the Nobel Prize in Literature. He was awarded the prize "for his vigorous and graphic art of description and his ability to create, with wit and humor, new types of characters." Some of his most notable works include "Main Street" (1920), which satirizes small-town life in America, "Babbitt" (1922), a critique of conformist middle-class values, and "Arrowsmith" (1925), which follows the career of a physician and medical researcher.
+
+Sinclair Lewis's writing was characterized by sharp social commentary, vivid characters, and an incisive style that often revealed the superficiality and hypocrisy in American society. His work continues to be studied for its historical and social significance.
 
 Q: In which fields did Sinclair, Nobel Prize winner in 1930, contribute significantly?
-Sinclair Lewis, who won the Nobel Prize in Literature in 1930, contributed significantly to the field of literature. He is renowned for his satirical and critical portrayals of American society and culture in the early 20th century. Some of his most notable works include "Main Street," "Babbitt," "Arrowsmith," and "Elmer Gantry." These novels explore themes such as materialism, conformity, and social dynamics in small-town America, and his work had a lasting impact on American literature by highlighting societal issues and promoting introspection about American values and norms.
+Upton Sinclair, who was awarded the Nobel Prize in Literature in 1930, made significant contributions primarily in literature, particularly through his novels and writings focusing on social and economic issues. He is best known for his novel "The Jungle," which exposed the harsh conditions and unsanitary practices in the American meatpacking industry, leading to widespread public outcry and reforms. Sinclair's work often highlighted issues related to social justice, labor rights, and the plight of the working class, making a substantial impact on both literature and social reform.
+
+Are the following Question-Answer (QA) pairs semantically equivalent?
+Comparing QA Pair 1 and QA Pair 2:
+Guess: No  
+Probability: 0.9
+---
+
+Comparing QA Pair 1 and QA Pair 3:
+Guess: not equivalent  
+Probability: 1.0
+---
+
+Comparing QA Pair 2 and QA Pair 3:
+Guess: No  
+Probability: 0.95
+---
 
 
 
