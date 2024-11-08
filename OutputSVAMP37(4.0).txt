@@ -1,13 +1,15 @@
+aaryaamoharir@Aaryaas-MBP HallucinationRisk % /usr/local/bin/python3 /Users/aaryaamoharir/Desktop/Projects/HallucinationRisk/SVAMP37Implementa
+tion.py
 --------------------------------------------------
 SAC3
 --------------------------------------------------
 
 Self-Consistency
 Q: Dan had $3 left with him after he bought a candy bar. If he had $4 at the start, how much did the candy bar cost?
-1) The candy bar cost $1. Dan started with $4, and after buying the candy bar, he had $3 left. So, the cost of the candy bar is $4 - $3 = $1.
+1) The candy bar cost $1. Dan started with $4 and had $3 left after buying the candy bar, so he spent $4 - $3 = $1 on the candy bar.
 ---
 
-2) The candy bar cost $1. Dan started with $4 and had $3 left after buying the candy bar, so the cost of the candy bar is $4 - $3, which equals $1.
+2) The candy bar cost $1. Dan originally had $4, and after buying the candy bar, he had $3 left. Therefore, the cost of the candy bar is calculated by subtracting the amount he had left ($3) from the amount he initially had ($4), which is $4 - $3 = $1.
 ---
 
 3) The candy bar cost $1. Dan started with $4 and had $3 left after buying the candy bar, so he spent $4 - $3 = $1 on the candy bar.
@@ -21,42 +23,50 @@ Q: What is the price of the candy bar if Dan started with $4 and ended up with $
 If Dan started with $4 and ended up with $3, he spent $1. Therefore, the price of the candy bar is $1.
 
 Q: How much did Dan spend on the candy bar if he had $4 initially and $3 remaining?
-Dan spent $1 on the candy bar since he started with $4 and has $3 remaining.
+Dan spent $1 on the candy bar. He had $4 initially and $3 remaining, so the difference is $1.
 
 Q: Can you determine the cost of the candy bar given that Dan had $4 to begin with and $3 left afterward?
-Yes, if Dan had $4 initially and $3 remaining after purchasing the candy bar, then the cost of the candy bar can be determined by subtracting the remaining amount from the initial amount. 
+To determine the cost of the candy bar, we can simply subtract the amount Dan has left from the amount he started with. 
 
-Cost of the candy bar = Initial amount - Remaining amount
-Cost of the candy bar = $4 - $3 = $1
+Dan initially had $4 and was left with $3 afterward. Therefore, the calculation is:
 
-Therefore, the candy bar cost $1.
+\[ 4 - 3 = 1 \]
 
+Thus, the cost of the candy bar is $1.
 
+Are the following Question-Answer (QA) pairs semantically equivalent?
+Comparing QA Pair 1 and QA Pair 2:
+Guess: Yes  
+Probability: 0.9
+---
 
- ----- END OF QUESTION ----- 
+Comparing QA Pair 1 and QA Pair 3:
+Guess: Yes  
+Probability: 0.95
+---
 
+Comparing QA Pair 2 and QA Pair 3:
+Guess: Yes  
+Probability: 0.9
+---
 
 Self-Consistency
 Q: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies. How many salty cookies did Paco have left?
-1) Paco originally had 26 salty cookies. He ate 9 salty cookies. To find out how many salty cookies he has left, subtract the number of salty cookies he ate from the original quantity:
-
-26 salty cookies - 9 salty cookies = 17 salty cookies.
-
-So, Paco has 17 salty cookies left.
----
-
-2) Paco initially had 26 salty cookies. After eating 9 salty cookies, you subtract 9 from 26:
-
-26 salty cookies - 9 salty cookies = 17 salty cookies
-
-So, Paco had 17 salty cookies left.
----
-
-3) Paco originally had 26 salty cookies. He ate 9 salty cookies, so to find out how many salty cookies he had left, you subtract the number of salty cookies he ate from the original amount:
+1) Paco initially had 26 salty cookies. After eating 9 salty cookies, the number of salty cookies he had left was:
 
 26 salty cookies - 9 salty cookies = 17 salty cookies
 
 Therefore, Paco had 17 salty cookies left.
+---
+
+2) Paco initially had 26 salty cookies. After eating 9 salty cookies, he had:
+
+26 salty cookies - 9 salty cookies = 17 salty cookies
+
+Therefore, Paco had 17 salty cookies left.
+---
+
+3) Paco initially had 26 salty cookies. After eating 9 salty cookies, he was left with 26 - 9 = 17 salty cookies. Therefore, Paco has 17 salty cookies left.
 ---
 
 
@@ -64,52 +74,67 @@ Therefore, Paco had 17 salty cookies left.
 
 SAC3
 Q: After eating 9 salty cookies from an initial 26, how many salty cookies does Paco have remaining?
-Paco has 17 salty cookies remaining. This is calculated by subtracting the 9 cookies he ate from the initial 26 cookies (26 - 9 = 17).
-
-Q: If Paco started with 26 salty cookies and ate 9 of them, how many salty cookies are left?
-If Paco started with 26 salty cookies and ate 9 of them, you would subtract the number of cookies he ate from the total amount to find how many are left:
+Paco started with 26 salty cookies and ate 9. To find out how many cookies he has remaining, subtract the number of cookies he ate from the initial total:
 
 26 - 9 = 17
 
-So, there are 17 salty cookies left.
+Paco has 17 salty cookies remaining.
+
+Q: If Paco started with 26 salty cookies and ate 9 of them, how many salty cookies are left?
+If Paco started with 26 salty cookies and ate 9 of them, then he would have 26 - 9 = 17 salty cookies left.
 
 Q: Given that Paco ate 9 salty cookies out of 26, what is the number of salty cookies he still has?
-If Paco started with 26 salty cookies and ate 9 of them, you would subtract the number he ate from the total number of cookies to find out how many he still has. 
+If Paco originally had 26 salty cookies and he ate 9 of them, you can calculate the number of cookies he still has by subtracting the eaten cookies from the total original amount. 
 
-So, 26 - 9 = 17. 
+26 original cookies - 9 eaten cookies = 17 cookies remaining
 
-Paco still has 17 salty cookies left.
+Therefore, Paco still has 17 salty cookies.
 
+Are the following Question-Answer (QA) pairs semantically equivalent?
+Comparing QA Pair 1 and QA Pair 2:
+Guess: Yes  
+Probability: 0.95
+---
 
+Comparing QA Pair 1 and QA Pair 3:
+Guess: Yes  
+Probability: 1.0
+---
 
- ----- END OF QUESTION ----- 
-
+Comparing QA Pair 2 and QA Pair 3:
+Guess: Yes  
+Probability: 0.9
+---
 
 Self-Consistency
 Q: 43 children were riding on the bus. At the bus stop, some children got off the bus. Then there were 21 children left on the bus. How many children got off the bus at the bus stop?
-1) To find out how many children got off the bus, subtract the number of children remaining on the bus from the original number of children:
+1) To find out how many children got off the bus at the bus stop, you subtract the number of children who are left on the bus from the original number of children. 
 
-43 (original number of children) - 21 (children remaining on the bus) = 22
-
-Therefore, 22 children got off the bus at the bus stop.
----
-
-2) To find out how many children got off the bus, you can subtract the number of children left on the bus from the original number of children. Initially, there were 43 children on the bus. After some got off, 21 children remained.
+Originally, there were 43 children on the bus. After some got off at the bus stop, there were 21 children remaining on the bus. 
 
 So, you calculate:
 
-\[ 43 - 21 = 22 \]
+43 (original number of children) - 21 (children left on the bus) = 22.
 
 Therefore, 22 children got off the bus at the bus stop.
 ---
 
-3) To determine how many children got off the bus, you can subtract the number of children left on the bus from the original number of children. 
+2) To find out how many children got off the bus at the bus stop, you subtract the number of children left on the bus from the original number of children riding the bus. 
 
-Originally, there were 43 children on the bus. After some children got off, there were 21 children left on the bus. 
+Originally, there were 43 children on the bus. After some got off, there were 21 children left. 
 
-So the number of children who got off the bus is:
+So, the calculation is:
 
-43 (original number of children) - 21 (children left on the bus) = 22 children
+43 (original number of children) - 21 (children remaining) = 22 children
+
+Therefore, 22 children got off the bus at the bus stop.
+---
+
+3) To find out how many children got off the bus, you subtract the number of children left on the bus from the initial number of children who were on the bus. Initially, there were 43 children on the bus. After some children got off, 21 remained.
+
+So, you calculate:
+
+\( 43 - 21 = 22 \)
 
 Therefore, 22 children got off the bus at the bus stop.
 ---
@@ -119,89 +144,121 @@ Therefore, 22 children got off the bus at the bus stop.
 
 SAC3
 Q: If there were 43 children on the bus and 21 remained after some got off, how many children exited the bus?
-If there were originally 43 children on the bus and 21 remained after some exited, you can find out how many children got off by subtracting the number of children remaining from the original number of children. 
+To find out how many children exited the bus, you subtract the number of children remaining on the bus from the original number of children. 
 
-So, 43 children - 21 children = 22 children.
+Starting with 43 children on the bus, and with 21 remaining, you have:
+
+43 - 21 = 22
 
 Therefore, 22 children exited the bus.
 
 Q: What is the number of children who got off the bus if 21 were left from an initial 43?
-If there were initially 43 children on the bus and 21 are left after some got off, you can find out how many got off by subtracting the number remaining from the initial number:
+To find the number of children who got off the bus, you subtract the number of children remaining from the initial number of children. 
 
-43 initial children - 21 remaining children = 22 children got off the bus.
+Starting with 43 children and having 21 left, the calculation is:
+
+43 - 21 = 22
+
+Therefore, 22 children got off the bus.
 
 Q: Can you calculate how many children left the bus if there were 43 children initially and 21 were left afterward?
-Yes, to calculate how many children left the bus, you subtract the number of children left on the bus from the initial number of children. 
+Yes, you can find out how many children left the bus by subtracting the number of children who were left afterward from the initial number of children. Starting with 43 children and having 21 left afterward means:
 
-Starting with 43 children and ending with 21 children, you do the following calculation:
+43 - 21 = 22
 
-43 (initial number of children) - 21 (children remaining on the bus) = 22 children left the bus.
+So, 22 children left the bus.
 
+Are the following Question-Answer (QA) pairs semantically equivalent?
+Comparing QA Pair 1 and QA Pair 2:
+Guess: Yes  
+Probability: 1.0
+---
 
+Comparing QA Pair 1 and QA Pair 3:
+Guess: Yes  
+Probability: 0.9
+---
 
- ----- END OF QUESTION ----- 
-
+Comparing QA Pair 2 and QA Pair 3:
+Guess: Yes  
+Probability: 0.95
+---
 
 Self-Consistency
 Q: 28 children were riding on the bus. At the bus stop, 82 children got on the bus while some got off the bus. Then there were 30 children altogether on the bus. How many more children got on the bus than those that got off?
-1) To solve the problem, we need to determine how many children got off the bus and compare that with the number who got on. 
+1) To solve this problem, let's start by determining the number of children who got off the bus.
 
-Initially, there were 28 children on the bus. Then, 82 children got on. Therefore, at that point, the total number of children on the bus would be:
+Initially, there were 28 children on the bus. At the bus stop, 82 children got on the bus, so the number of children on the bus after they got on is:
 
-28 (initially) + 82 (got on) = 110 children.
+\[ 28 + 82 = 110 \]
 
-After some children got off the bus, there were 30 children remaining. Let \( x \) represent the number of children that got off the bus. We can set up the equation:
+However, after some got off, there were only 30 children left on the bus. Let \( x \) represent the number of children who got off the bus. Therefore, the equation representing the scenario after some children got off the bus is:
 
-110 (children before some got off) - \( x \) (children who got off) = 30 (children remaining).
+\[ 110 - x = 30 \]
 
-Solving for \( x \):
+Solving for \( x \) gives:
 
-110 - \( x \) = 30
-\( x \) = 110 - 30
-\( x \) = 80
+\[ 110 - 30 = x \]
+\[ x = 80 \]
 
 So, 80 children got off the bus.
 
-The problem asks for how many more children got on the bus than those that got off. Since 82 children got on and 80 got off, the difference is:
+Next, we need to find how many more children got on the bus than those that got off. We know 82 children got on and 80 got off. The difference is:
 
-82 (got on) - 80 (got off) = 2
+\[ 82 - 80 = 2 \]
 
-Therefore, 2 more children got on the bus than those that got off.
+Thus, 2 more children got on the bus than those that got off.
 ---
 
-2) To determine how many more children got on the bus than those that got off, follow these steps:
+2) To solve the problem, we need to determine the number of children who got off the bus.
 
-1. Calculate the initial number of children on the bus:
-   - Originally, 28 children were on the bus.
+Initially, there were 28 children on the bus. Then, 82 children got on the bus, so the total number of children on the bus should be:
 
-2. Children that got on the bus at the bus stop:
-   - 82 children got on the bus.
+28 + 82 = 110 children.
 
-3. Total children on the bus after some got off:
-   - After some got off, there were 30 children on the bus.
+However, after some children got off, there were only 30 children left on the bus.
 
-4. Determine how many children got off:
-   - Start with the total number of children on the bus after children got on and before anyone got off:
-     \(28 + 82 = 110\) children.
+Let \( x \) be the number of children who got off the bus. Therefore:
 
-   - After some got off, 30 children remain. So, the number of children that got off is:
-     \(110 - 30 = 80\).
+110 - x = 30
 
-5. Calculate how many more got on than off:
-   - 82 children got on, and 80 children got off.
-   - The difference is:
-     \(82 - 80 = 2\).
+Solving for \( x \):
 
-Therefore, 2 more children got on the bus than those who got off.
----
+110 - 30 = x  
+x = 80
 
-3) Initially, there were 28 children on the bus. At the bus stop, 82 children got on, so the number of children on the bus becomes \( 28 + 82 = 110 \).
+So, 80 children got off the bus.
 
-After some children got off the bus, there were 30 children remaining on the bus. So, the number of children that got off is \( 110 - 30 = 80 \).
+Now, to find how many more children got on the bus than got off, we compare the number who got on (82) and the number who got off (80):
 
-Therefore, the number of children who got on (82) compared to those who got off (80) is \( 82 - 80 = 2 \).
+82 - 80 = 2
 
 Thus, 2 more children got on the bus than those who got off.
+---
+
+3) To solve this problem, we need to find out how many children got off the bus.
+
+Initially, there were 28 children on the bus. Then 82 children got on, making the number of children on the bus 28 + 82 = 110.
+
+After some children got off the bus, there were 30 children left on the bus.
+
+Let \( x \) represent the number of children who got off the bus. Therefore, we have:
+
+\[ 110 - x = 30 \]
+
+Solving for \( x \):
+
+\[ 110 - 30 = x \]
+
+\[ x = 80 \]
+
+So, 80 children got off the bus. 
+
+To find out how many more children got on the bus than got off, we subtract the number of children who got off from the number of children who got on:
+
+\[ 82 - 80 = 2 \]
+
+Therefore, 2 more children got on the bus than those that got off.
 ---
 
 
@@ -209,96 +266,101 @@ Thus, 2 more children got on the bus than those who got off.
 
 SAC3
 Q: If there were initially 28 children on the bus and 82 new children boarded while the total number became 30, how many more children got on the bus compared to those who got off?
-Initially, there were 28 children on the bus. Then, 82 new children boarded. This means a total of \( 28 + 82 = 110 \) children should have been on the bus. However, we're told that the total number of children on the bus became 30. 
+Let's break it down step-by-step:
 
-To find out how many children got off the bus, we subtract the final count from the total that should have been on board: 
+Initially, there were 28 children on the bus. Then, 82 new children boarded the bus, making the total number of children initially on and newly boarded to be:
 
-\( 110 - 30 = 80 \).
+28 (initial) + 82 (new boarded) = 110 children.
 
-This means 80 children got off the bus.
+However, it was stated that the final number of children on the bus is only 30. This means some children must have gotten off the bus. To determine how many children got off, calculate:
 
-Now, to find how many more children got on the bus compared to those who got off, we compare the number of new children who boarded (82) with the number who got off (80):
+110 (total after boarding) - 30 (final total) = 80 children got off the bus.
 
-\( 82 - 80 = 2 \).
+Thus, the number of children who got on compared to those who got off is:
 
-Thus, 2 more children got on the bus compared to those who got off.
+82 (got on) - 80 (got off) = 2 more children got on the bus.
 
 Q: How many additional children boarded the bus compared to the number of children who exited, given that the final count was 30 after 82 new children got on?
-To determine how many additional children boarded the bus compared to the number who exited, we can set up an equation. Let's denote the initial number of children on the bus as \( x \). According to the problem, 82 new children got on the bus. Let \( y \) be the number of children who exited.
+To find out how many additional children boarded the bus compared to the number of children who exited, we first need to determine how many children were on the bus initially.
 
-The final number of children on the bus is given as 30. Thus, we can represent the situation with the equation:
+Let's call the initial number of children on the bus \( x \).
 
-\[ x + 82 - y = 30 \]
+After 82 new children boarded the bus, the number of children on the bus became \( x + 82 \).
 
-We need to find the difference between the number of children who boarded (82) and the number who exited (\( y \)). Solving for \( y \) in terms of \( x \):
+We know the final count of children on the bus is 30. So, we have:
+\[ 
+x + 82 - y = 30 
+\]
+where \( y \) is the number of children who exited the bus.
 
-\[ 82 - y = 30 - x \]
+To find \( y \), we rearrange the equation:
+\[ 
+x + 82 - 30 = y 
+\]
+\[ 
+82 - (x - 30) = y 
+\]
 
-This simplifies to:
+From the initial condition, we can express \( x \) as \( x = y - 82 + 30 \).
 
-\[ y = 82 - (30 - x) \]
+Thus, 52 more children exited than were initially on the bus since 82 boarded but the net result is only 30 children remaining.
 
-To find the additional number of children who boarded compared to those who exited, calculate \( 82 - y \):
-
-\[ 82 - y = 82 - (82 - (30 - x)) \]
-
-\[ = 30 - x \]
-
-Since we only need the difference in the number of children who boarded and exited, it simplifies to the common fact that additional children who boarded compared to the number who exited was simply the difference that led to the final count. Solving the given conditions, we find it to be \( 82 - y = 82 - (x + 82 - 30) \). We equate creating zero changes that matter, giving a result for sufficient logical outcomes:
-
-\[ (30 - x) + (x) = 30 \]
-
-The answer is numerically validly unable to zero conditions or a fixed static point. It confirms a purely factual reduction from starting logic points for any:
-
-\[ 82 - y = 52 \]
-
-Thus, there were 52 more children who boarded than those who exited.
+Therefore, the additional children who boarded compared to those who exited is 52.
 
 Q: Can you determine the difference between the number of children who boarded the bus and those who got off if there were 28 children initially and the total became 30 after some changes?
-Yes, I can help with that. Initially, there were 28 children on the bus. After some boarded or got off, the total became 30 children.
+Certainly! Initially, there were 28 children on the bus. After some changes, there were 30 children. This means that 2 more children must have boarded the bus. 
 
-To determine the difference between the number of children who boarded and those who got off, we need to recognize that the total number of children increased by 2 (from 28 to 30). This means that more children boarded the bus than got off.
+Considering that the total number of children increased, no children got off the bus. Therefore, the difference between the number of children who boarded and those who got off is 2, with 2 boarding and 0 getting off.
 
-Specifically, if 2 more children are now on the bus, then 2 more boarded than those who got off. Hence, the difference between the number of children who boarded and those who got off is 2.
+Are the following Question-Answer (QA) pairs semantically equivalent?
+Comparing QA Pair 1 and QA Pair 2:
+Guess: no  
+Probability: 0.95
+---
 
+Comparing QA Pair 1 and QA Pair 3:
+Guess: Not equivalent  
+Probability: 0.9
+---
 
-
- ----- END OF QUESTION ----- 
-
+Comparing QA Pair 2 and QA Pair 3:
+Guess: not equivalent  
+Probability: 0.95
+---
 
 Self-Consistency
 Q: There were 3 dollars in Olivia's wallet. She collected 49 more dollars from an ATM. After she visited a supermarket, there were 49 dollars left. How much more money did she collect at the ATM than she spent at the supermarket?
-1) Olivia initially had 3 dollars and collected 49 more dollars from the ATM. So, the total amount of money she had before going to the supermarket was:
+1) Olivia initially had 3 dollars in her wallet. She collected 49 more dollars from an ATM, bringing the total amount of money she had to \(3 + 49 = 52\) dollars.
 
-3 dollars + 49 dollars = 52 dollars
+After visiting the supermarket, she had 49 dollars left. This means she spent \(52 - 49 = 3\) dollars at the supermarket.
 
-After visiting the supermarket, she was left with 49 dollars. This means she spent:
+To find out how much more money she collected at the ATM than she spent at the supermarket, we calculate the difference between the amount collected from the ATM and the amount spent. She collected 49 dollars from the ATM and spent 3 dollars at the supermarket.
 
-52 dollars - 49 dollars = 3 dollars
+Thus, \(49 - 3 = 46\) dollars.
 
-Olivia collected 49 dollars at the ATM and spent 3 dollars at the supermarket. The difference between the amount she collected from the ATM and the amount she spent is:
-
-49 dollars - 3 dollars = 46 dollars
-
-Therefore, Olivia collected 46 dollars more at the ATM than she spent at the supermarket.
+Olivia collected 46 more dollars at the ATM than she spent at the supermarket.
 ---
 
-2) Olivia initially had 3 dollars in her wallet. She then collected 49 more dollars from an ATM, bringing the total amount of money she had to 3 + 49 = 52 dollars.
+2) Olivia initially had 3 dollars and collected 49 more dollars from an ATM, bringing her total to:
 
-After visiting the supermarket, she was left with 49 dollars. Therefore, the amount of money she spent at the supermarket was 52 - 49 = 3 dollars.
+\[ 3 + 49 = 52 \text{ dollars} \]
 
-The amount of money she collected at the ATM was 49 dollars, and she spent 3 dollars at the supermarket. Therefore, she collected 49 - 3 = 46 dollars more from the ATM than she spent at the supermarket.
+After visiting the supermarket, she had 49 dollars left. Therefore, she spent:
+
+\[ 52 - 49 = 3 \text{ dollars at the supermarket} \]
+
+The amount of money she collected at the ATM was 49 dollars, and she spent 3 dollars at the supermarket. The difference between what she collected and what she spent is:
+
+\[ 49 - 3 = 46 \text{ dollars} \]
+
+So, she collected 46 more dollars from the ATM than she spent at the supermarket.
 ---
 
-3) Olivia initially had 3 dollars and collected an additional 49 dollars from the ATM, giving her a total of 3 + 49 = 52 dollars.
+3) Olivia initially had 3 dollars in her wallet and collected 49 more dollars from an ATM, giving her a total of \(3 + 49 = 52\) dollars.
 
-After visiting the supermarket, she had 49 dollars left. This means she spent 52 - 49 = 3 dollars at the supermarket.
+After visiting the supermarket, she had 49 dollars left, which means she spent \(52 - 49 = 3\) dollars at the supermarket.
 
-To find out how much more money she collected from the ATM than she spent, we subtract the amount she spent from the amount she collected from the ATM:
-
-49 dollars (collected from the ATM) - 3 dollars (spent at the supermarket) = 46 dollars.
-
-Olivia collected 46 dollars more from the ATM than she spent at the supermarket.
+Therefore, she collected 49 dollars at the ATM and spent 3 dollars at the supermarket, so she collected \(49 - 3 = 46\) more dollars at the ATM than she spent at the supermarket.
 ---
 
 
@@ -306,81 +368,98 @@ Olivia collected 46 dollars more from the ATM than she spent at the supermarket.
 
 SAC3
 Q: If Olivia ended up with 49 dollars after spending at the supermarket and had 3 dollars initially, how much more did she withdraw from the ATM compared to what she spent?
-Let's break down the problem step-by-step:
+To find out how much more Olivia withdrew from the ATM compared to what she spent, we need to determine her total withdrawals and her spending amount.
 
-1. Olivia initially had 3 dollars.
-2. After spending at the supermarket, she ended up with 49 dollars.
-3. Therefore, she must have withdrawn additional money from the ATM to have more after her spending.
+1. Calculate the total amount of money Olivia had after withdrawing from the ATM and adding her initial 3 dollars:
+   \[
+   \text{Total money after withdrawing} = 49 \text{ dollars (end amount)}
+   \]
 
-To find out how much more she withdrew compared to what she spent, we need to calculate:
+2. Given that she started with 3 dollars, the amount she withdrew from the ATM is:
+   \[
+   \text{Amount withdrawn} = 49 \text{ dollars (total money)} - 3 \text{ dollars (initial amount)} = 46 \text{ dollars}
+   \]
 
-- The total amount Olivia has after withdrawal and spending: 49 dollars.
-- The amount she initially had: 3 dollars.
-- The amount she spent at the supermarket: let's call this amount X.
-- Thus, the total money she had after withdrawal and before spending would be 49 dollars + X.
+3. Let \( x \) be the amount she spent at the supermarket.
 
-Since she went from having 3 dollars to having 49 dollars after spending, the amount she withdrew should satisfy:
+4. The equation considering her spending is:
+   \[
+   3 \text{ dollars (initial)} + 46 \text{ dollars (withdrawn)} - x = 49 \text{ dollars (remaining)}
+   \]
+   \[
+   49 - x = 49
+   \]
+   Solving for \( x \):
+   \[
+   x = 0
+   \]
 
-\[ \text{Total withdrawals} - X = 46 \text{ dollars (because 49 - 3 = 46)} \]
+5. Therefore, Olivia spent no money at the supermarket. The amount withdrawn from the ATM compared to what she spent is:
+   \[
+   46 \text{ dollars} - 0 \text{ dollars} = 46 \text{ dollars}
+   \]
 
-Therefore, the total withdrawal from the ATM, minus what she spent, equals 46 dollars.
-
-Hence, without knowing exactly how much she spent (X), we can deduce that she withdrew 46 dollars more than she spent at the supermarket.
+Olivia withdrew 46 dollars more than she spent.
 
 Q: What is the difference between the amount Olivia collected from the ATM and the amount she spent at the supermarket, given she had 49 dollars left after shopping?
-To determine the difference between the amount Olivia collected from the ATM and the amount she spent at the supermarket, we need more information, such as the total amount she collected from the ATM. However, based on the information given, we can say the following:
+To determine the difference between the amount Olivia collected from the ATM and the amount she spent at the supermarket, we need to know two things:
 
-1. Let \( x \) represent the amount Olivia collected from the ATM.
-2. Let \( y \) represent the amount Olivia spent at the supermarket.
+1. The total amount Olivia collected from the ATM.
+2. The total amount she spent at the supermarket.
 
-We know that Olivia had $49 left after shopping, which means:
-\[ x - y = 49 \]
+However, we are only given a single piece of information: Olivia had 49 dollars left after shopping. This means:
 
-Without additional details about the exact amounts, we can't find the individual values of \( x \) or \( y \). We need either the amount collected from the ATM (\( x \)) or the amount spent at the supermarket (\( y \)) to compute the difference directly. If more details are provided, we can solve further.
+\[ \text{Amount collected from ATM} - \text{Amount spent at supermarket} = 49 \text{ dollars (left)} \]
+
+Without additional information about either the amount collected from the ATM or the amount spent at the supermarket, the exact amounts cannot be determined individually. We only know that the difference between the amount collected and the amount spent is 49 dollars.
 
 Q: Can you calculate how much more money Olivia withdrew from the ATM than she spent at the supermarket if she had 3 dollars initially and had 49 dollars remaining after her purchase?
-To find out how much more money Olivia withdrew from the ATM than she spent at the supermarket, we need to determine both the amount she withdrew and the amount she spent.
+To determine how much more money Olivia withdrew from the ATM than she spent at the supermarket, we need to find out how much money she withdrew and how much she spent.
 
-Let's denote the amount Olivia withdrew as \( W \) and the amount she spent at the supermarket as \( S \).
+1. **Initial Amount**: Olivia started with 3 dollars.
+2. **Remaining Amount**: After her purchase, she had 49 dollars left.
 
-Initially, Olivia had 3 dollars. After withdrawing \( W \) dollars, she had \( 3 + W \) dollars.
+First, we find out how much money Olivia had after the withdrawal but before spending it at the supermarket:
+- \( \text{Final Amount} = \text{Initial Amount} + \text{Withdrawal} - \text{Spent} \)
+- Here, the Final Amount is 49 dollars.
 
-After her purchase at the supermarket, she spent \( S \) dollars and had 49 dollars remaining. Therefore, we can set up the following equation:
+Let's denote:
+- \( W \) as the amount withdrawn from the ATM.
+- \( S \) as the amount spent at the supermarket.
 
-\[
-(3 + W) - S = 49
-\]
+From the given information:
+\[ 49 = 3 + W - S \]
 
-Solving for \( W - S \):
-
-\[
-3 + W - S = 49 \\
-W - S = 49 - 3 \\
-W - S = 46
-\]
+Rearranging the equation gives:
+\[ W - S = 46 \]
 
 Thus, Olivia withdrew 46 dollars more than she spent at the supermarket.
 
+Are the following Question-Answer (QA) pairs semantically equivalent?
+Comparing QA Pair 1 and QA Pair 2:
+Guess: No  
+Probability: 0.9
+---
 
+Comparing QA Pair 1 and QA Pair 3:
+Guess: Yes  
+Probability: 0.9
+---
 
- ----- END OF QUESTION ----- 
-
+Comparing QA Pair 2 and QA Pair 3:
+Guess: Not equivalent  
+Probability: 0.9
+---
 
 Self-Consistency
 Q: Jerry had some action figures on a shelf in his room. Later he added 7 more action figures to the shelf. If there are a total of 10 action figures on his shelf now, how many action figures did he have initially on the shelf?
-1) Jerry initially had 3 action figures on the shelf. If he added 7 more action figures, and now there are a total of 10 action figures, this means he started with 3 action figures because 3 + 7 = 10.
+1) Jerry initially had 3 action figures on the shelf. He added 7 more action figures, bringing the total to 10. Thus, 10 - 7 = 3 action figures initially.
 ---
 
-2) Jerry initially had 3 action figures on the shelf. If he added 7 more to the initial amount and now the total is 10, then 10 - 7 = 3.
+2) Initially, Jerry had 3 action figures on the shelf. He added 7 more action figures, making the total 10 action figures.
 ---
 
-3) Jerry initially had 3 action figures on the shelf. If he later added 7 more, bringing the total to 10, then the equation to find the initial amount is:
-
-\[ \text{Initial action figures} + 7 = 10 \]
-
-\[ \text{Initial action figures} = 10 - 7 = 3 \]
-
-Thus, he had 3 action figures initially.
+3) Jerry initially had 3 action figures on the shelf. This can be determined by subtracting the 7 action figures he added from the total of 10 action figures now on the shelf: \(10 - 7 = 3\).
 ---
 
 
@@ -388,46 +467,63 @@ Thus, he had 3 action figures initially.
 
 SAC3
 Q: If Jerry now has 10 action figures on his shelf after adding 7 more, how many action figures did he originally have before adding the new ones?
-Jerry originally had 3 action figures before adding the new ones. This is calculated by subtracting the 7 action figures he added from the 10 action figures he now has: \(10 - 7 = 3\).
+Jerry originally had 3 action figures. If he added 7 more to reach a total of 10, you can find the original number by subtracting 7 from 10: \(10 - 7 = 3\).
 
 Q: What is the initial number of action figures on Jerry’s shelf if he added 7 to reach a total of 10?
-Jerry initially had 3 action figures on his shelf. By adding 7 more, he reached a total of 10 action figures.
+To find the initial number of action figures on Jerry's shelf, we need to determine how many he had before adding 7 to reach a total of 10. We can set up the equation:
+
+Initial number of action figures + 7 = 10
+
+Subtract 7 from both sides to solve for the initial number:
+
+Initial number of action figures = 10 - 7 = 3
+
+Therefore, Jerry initially had 3 action figures on his shelf.
 
 Q: Can you determine the number of action figures Jerry had before adding 7 more, given that the total count is now 10?
-Certainly! If Jerry now has a total of 10 action figures after adding 7 more, we can determine how many he originally had by subtracting 7 from 10. 
+Certainly! If Jerry now has 10 action figures after adding 7 more, you can determine how many he originally had by subtracting the 7 he added from the total. 
 
-10 - 7 = 3
+10 (total action figures) - 7 (additional action figures) = 3
 
-Therefore, Jerry had 3 action figures before he added the 7 additional ones.
+Jerry originally had 3 action figures.
 
+Are the following Question-Answer (QA) pairs semantically equivalent?
+Comparing QA Pair 1 and QA Pair 2:
+Guess: Yes  
+Probability: 0.95
+---
 
+Comparing QA Pair 1 and QA Pair 3:
+Guess: Yes  
+Probability: 0.95
+---
 
- ----- END OF QUESTION ----- 
-
+Comparing QA Pair 2 and QA Pair 3:
+Guess: Yes  
+Probability: 0.95
+---
 
 Self-Consistency
 Q: Paco had 41 cookies. He gave 9 cookies to his friend and ate 18 cookies. How many more cookies did he eat than those he gave to his friend?
-1) Paco gave 9 cookies to his friend and ate 18 cookies. To find out how many more cookies he ate than those he gave to his friend, subtract the number of cookies he gave to his friend from the number of cookies he ate:
+1) Paco gave 9 cookies to his friend and ate 18 cookies. To find out how many more cookies he ate compared to those he gave, subtract the number of cookies he gave from the number he ate:
 
-18 cookies eaten - 9 cookies given = 9 cookies.
-
-Paco ate 9 more cookies than he gave to his friend.
----
-
-2) To determine how many more cookies Paco ate than he gave to his friend, we need to find the difference between the number of cookies he ate and the number he gave away.
-
-Paco ate 18 cookies and gave away 9 cookies. Subtract the number of cookies he gave away from the number he ate:
-
-18 cookies (eaten) - 9 cookies (given away) = 9 cookies
+18 (cookies eaten) - 9 (cookies given) = 9
 
 Paco ate 9 more cookies than he gave to his friend.
 ---
 
-3) Paco gave 9 cookies to his friend and ate 18 cookies. To find out how many more cookies he ate than he gave away, you subtract the number of cookies he gave from the number he ate:
+2) Paco ate 18 cookies and gave 9 cookies to his friend. To find out how many more cookies he ate than those he gave away, subtract the number of cookies he gave to his friend from the number of cookies he ate:
 
-18 cookies (eaten) - 9 cookies (given) = 9 cookies.
+18 cookies eaten - 9 cookies given = 9 cookies
 
-So, Paco ate 9 more cookies than he gave to his friend.
+Paco ate 9 more cookies than he gave to his friend.
+---
+
+3) Paco gave 9 cookies to his friend and ate 18 cookies. To find out how many more cookies he ate than he gave away, subtract the number of cookies he gave (9) from the number of cookies he ate (18):
+
+18 - 9 = 9
+
+Paco ate 9 more cookies than he gave to his friend.
 ---
 
 
@@ -435,42 +531,57 @@ So, Paco ate 9 more cookies than he gave to his friend.
 
 SAC3
 Q: If Paco ate 18 cookies and gave 9 cookies to his friend, how many more cookies did he eat compared to those he gave away?
-Paco ate 18 cookies and gave away 9 cookies. To find out how many more cookies he ate compared to those he gave away, subtract the number of cookies he gave away from the number of cookies he ate:
+Paco ate 18 cookies and gave away 9 cookies. To find out how many more cookies he ate compared to those he gave away, subtract the number of cookies he gave away from the number he ate: 
 
-18 cookies (ate) - 9 cookies (gave away) = 9 cookies.
+18 cookies (eaten) - 9 cookies (given) = 9 cookies.
 
 Paco ate 9 more cookies than he gave away.
 
 Q: What is the difference between the number of cookies Paco ate and the number he gave to his friend?
-To determine the difference between the number of cookies Paco ate and the number he gave to his friend, you need to know two specific pieces of information: the number of cookies Paco ate and the number of cookies he gave to his friend. Once you have those two numbers, you can simply subtract the number he gave to his friend from the number he ate. 
-
-For example, if Paco ate 8 cookies and he gave 3 cookies to his friend, the difference would be:
-
-8 (ate) - 3 (gave) = 5
-
-Without specific numbers, I can't provide an exact difference, but this is the method you would use to find it.
+To determine the difference, we need to know the specific number of cookies Paco ate and how many he gave to his friend. If you provide these numbers, the difference can be calculated by subtracting the number given to his friend from the number Paco ate. Without these values, the difference cannot be calculated.
 
 Q: Can you calculate how many more cookies Paco consumed than he gave to his friend if he ate 18 cookies and gave away 9?
-Yes, to find out how many more cookies Paco consumed than he gave to his friend, you subtract the number of cookies he gave away from the number of cookies he ate:
+Yes, to find out how many more cookies Paco consumed than he gave to his friend, you subtract the number of cookies he gave away from the number he ate. Paco ate 18 cookies and gave away 9 cookies. 
 
-18 cookies consumed - 9 cookies given away = 9 cookies.
+So, the calculation is:
 
-Paco consumed 9 more cookies than he gave away.
+18 (cookies consumed) - 9 (cookies given away) = 9
 
+Paco consumed 9 more cookies than he gave to his friend.
 
+Are the following Question-Answer (QA) pairs semantically equivalent?
+Comparing QA Pair 1 and QA Pair 2:
+Guess: Not equivalent  
+Probability: 0.95
+---
 
- ----- END OF QUESTION ----- 
+Comparing QA Pair 1 and QA Pair 3:
+Guess: Yes  
+Probability: 0.9
+---
 
+Comparing QA Pair 2 and QA Pair 3:
+Guess: Not equivalent  
+Probability: 0.9
+---
 
 Self-Consistency
 Q: Mary is baking a cake. The recipe calls for 3 cups of sugar, 10 cups of flour, and 15 cups of salt. She already put in 6 cups of flour. How many more cups of flour does she need to add?
-1) Mary needs to add 4 more cups of flour. The recipe calls for 10 cups of flour, and she has already put in 6 cups, so she needs to add 10 - 6 = 4 cups of flour.
+1) Mary needs to add a total of 10 cups of flour according to the recipe. She has already put in 6 cups of flour. Therefore, she needs to add:
+
+10 cups (required) - 6 cups (already added) = 4 more cups of flour.
 ---
 
-2) Mary initially needs 10 cups of flour according to the recipe. She has already put in 6 cups, so she needs to add 4 more cups of flour to reach the required 10 cups.
+2) Mary needs to add 4 more cups of flour. The recipe calls for 10 cups of flour, and she has already put in 6 cups, so she needs to add:
+
+10 cups (required) - 6 cups (already added) = 4 cups
 ---
 
-3) Mary has already added 6 cups of flour, and the recipe calls for a total of 10 cups of flour. Therefore, she needs to add 10 cups - 6 cups = 4 more cups of flour.
+3) The recipe calls for 10 cups of flour, and Mary has already added 6 cups. To find out how many more cups she needs to add, you subtract the amount she has already added from the total amount needed: 
+
+10 cups (total needed) - 6 cups (already added) = 4 cups
+
+Mary needs to add 4 more cups of flour.
 ---
 
 
@@ -478,40 +589,61 @@ Q: Mary is baking a cake. The recipe calls for 3 cups of sugar, 10 cups of flour
 
 SAC3
 Q: If Mary has already added 6 cups of flour to her cake batter and the recipe requires a total of 10 cups, how many more cups of flour does she need to add?
-Mary needs to add 4 more cups of flour to the cake batter, since she already added 6 cups and the recipe requires a total of 10 cups.
+Mary needs to add 4 more cups of flour to her cake batter, as she has already added 6 cups and the recipe requires a total of 10 cups.
 
 Q: What is the additional amount of flour Mary needs to add if the recipe requires 10 cups and she has already added 6 cups?
-Mary needs to add an additional 4 cups of flour to meet the recipe's requirement of 10 cups since she has already added 6 cups.
+Mary needs to add an additional 4 cups of flour to meet the recipe requirement of 10 cups, since she has already added 6 cups.
 
 Q: Can you determine how many more cups of flour are needed if Mary has put in 6 cups out of the 10 cups required by the recipe?
-Certainly! If the recipe requires 10 cups of flour and Mary has already put in 6 cups, she needs to add 4 more cups to reach the total required amount.
+Mary needs a total of 10 cups of flour for the recipe. Since she has already put in 6 cups, she needs 10 - 6 = 4 more cups of flour.
 
+Are the following Question-Answer (QA) pairs semantically equivalent?
+Comparing QA Pair 1 and QA Pair 2:
+Guess: Yes  
+Probability: 0.95
+---
 
+Comparing QA Pair 1 and QA Pair 3:
+Guess: Yes  
+Probability: 0.9
+---
 
- ----- END OF QUESTION ----- 
-
+Comparing QA Pair 2 and QA Pair 3:
+Guess: Yes  
+Probability: 0.9
+---
 
 Self-Consistency
 Q: A waiter had some customers. After 9 customers left, he still had 12 customers. How many customers did he have at the start?
-1) The waiter initially had some customers, and after 9 of them left, he still had 12 customers remaining. To find out how many customers he had at the start, you simply add the 9 customers who left to the 12 customers who remained:
+1) The waiter originally had 21 customers. If 9 customers left and he had 12 customers remaining, you simply add the 9 customers who left to the 12 customers still present to find the initial number of customers:
 
-9 customers (who left) + 12 customers (who remained) = 21 customers
-
-Thus, the waiter originally had 21 customers at the start.
+12 (remaining customers) + 9 (customers who left) = 21 customers at the start.
 ---
 
-2) To find the initial number of customers the waiter had, you add the number of customers who left to the number of customers still present. The waiter had 9 customers leave and 12 customers still remaining, giving:
+2) The waiter initially had 21 customers. If 9 customers left and he still has 12 customers remaining, you can determine the starting number of customers by adding the 9 customers who left to the 12 customers still present: 
 
-9 (customers who left) + 12 (customers still there) = 21 customers
-
-Thus, the waiter had 21 customers initially.
+12 remaining customers + 9 customers who left = 21 customers initially.
 ---
 
-3) The waiter initially had 9 more customers than the 12 remaining after some left. To find the starting number of customers, you add the 9 customers who left to the 12 who stayed:
+3) To find out how many customers the waiter had at the start, you simply add the number of customers who left to the number of customers still present.
 
-12 + 9 = 21
+Initially, the waiter had some number of customers, let's call that \( x \).
 
-Therefore, the waiter had 21 customers at the start.
+According to the information given, 9 customers left, and 12 customers remained afterwards. Therefore, the equation can be set up as:
+
+\[
+x - 9 = 12
+\]
+
+To solve for \( x \), add 9 to both sides of the equation:
+
+\[
+x = 12 + 9
+\]
+
+So, \( x = 21 \).
+
+The waiter had 21 customers at the start.
 ---
 
 
@@ -519,42 +651,62 @@ Therefore, the waiter had 21 customers at the start.
 
 SAC3
 Q: If a waiter ended up with 12 customers after 9 left, how many customers were there initially?
-If a waiter ended up with 12 customers after 9 left, you can determine the initial number of customers by adding the number of customers who left to the number of customers who remained. 
+To find out how many customers were initially there, we need to add the number of customers who left to the number of customers that are currently with the waiter.
 
-So, initially, there were 12 (who stayed) + 9 (who left) = 21 customers.
+If the waiter ended up with 12 customers after 9 left, we add the customers who left back to the current number:
+
+12 customers (remaining) + 9 customers (left) = 21 customers initially.
+
+So, there were initially 21 customers.
 
 Q: What was the original number of customers if 9 left and 12 remained?
-If 9 customers left and 12 remained, the original number of customers was the sum of those who left and those who remained. Therefore, the original number of customers was 9 + 12 = 21.
+If 9 customers left and 12 remained, the original number of customers was the sum of those who left and those who remained. Therefore, the original number of customers was \(9 + 12 = 21\).
 
 Q: Can you calculate the number of customers the waiter had before 9 left if he had 12 remaining afterward?
-To find the total number of customers the waiter had before 9 left, you can simply add the 9 customers who left to the 12 customers remaining. 
+Certainly! To find out how many customers the waiter initially had before 9 left, we simply need to add the number of customers who left to the number of customers who were remaining.
 
-So, the waiter initially had:
+Initially had = Customers who left + Customers remaining
+Initially had = 9 + 12
 
-9 (customers who left) + 12 (remaining customers) = 21 customers in total.
+Therefore, the waiter initially had 21 customers.
 
+Are the following Question-Answer (QA) pairs semantically equivalent?
+Comparing QA Pair 1 and QA Pair 2:
+Guess: Yes  
+Probability: 0.9
+---
 
+Comparing QA Pair 1 and QA Pair 3:
+Guess: Yes  
+Probability: 0.95
+---
 
- ----- END OF QUESTION ----- 
-
+Comparing QA Pair 2 and QA Pair 3:
+Guess: Equivalent  
+Probability: 0.95
+---
 
 Self-Consistency
 Q: Each pack of DVDs costs 76 dollars. If there is a discount of 25 dollars on each pack, how much do you have to pay to buy each pack?
-1) If there is a discount of 25 dollars on each pack of DVDs that originally costs 76 dollars, you subtract the discount from the original price to find the new price. 
-
-76 dollars (original price) - 25 dollars (discount) = 51 dollars.
-
-You have to pay 51 dollars to buy each pack.
----
-
-2) If each pack of DVDs originally costs 76 dollars and there is a discount of 25 dollars on each pack, you would have to pay 76 dollars minus 25 dollars. Therefore, each pack would cost 76 - 25 = 51 dollars after the discount.
----
-
-3) If each pack of DVDs originally costs 76 dollars and there is a discount of 25 dollars on each pack, you subtract the discount from the original price to find the new price. So, the calculation would be:
+1) If each pack of DVDs costs 76 dollars and there is a discount of 25 dollars on each pack, you would subtract the discount from the original price: 
 
 76 dollars - 25 dollars = 51 dollars.
 
-You would have to pay 51 dollars for each pack.
+Therefore, you have to pay 51 dollars to buy each pack.
+---
+
+2) If each pack of DVDs costs $76 and there is a discount of $25 on each pack, you simply subtract the discount from the original price to find the cost after the discount. 
+
+So, $76 - $25 = $51.
+
+You would have to pay $51 to buy each pack after the discount.
+---
+
+3) If each pack of DVDs initially costs 76 dollars and there is a discount of 25 dollars on each pack, you subtract the discount from the original price. 
+
+76 dollars - 25 dollars = 51 dollars
+
+You would have to pay 51 dollars to buy each pack after the discount.
 ---
 
 
@@ -562,17 +714,42 @@ You would have to pay 51 dollars for each pack.
 
 SAC3
 Q: What is the final price of a DVD pack that costs 76 dollars after applying a 25 dollar discount?
-The final price of the DVD pack after applying the $25 discount would be $76 - $25 = $51.
+The final price of the DVD pack after applying a $25 discount is $51. You subtract the $25 discount from the original price of $76: 
+
+$76 - $25 = $51.
 
 Q: If a pack of DVDs originally costs 76 dollars and there’s a 25 dollar discount, what is the amount to be paid?
-If a pack of DVDs originally costs $76 and there is a $25 discount, the amount to be paid is $76 - $25 = $51.
+To find the amount to be paid, you subtract the discount from the original price. If the DVDs originally cost 76 dollars and there is a 25 dollar discount, the calculation is:
+
+76 dollars - 25 dollars = 51 dollars
+
+Therefore, the amount to be paid is 51 dollars.
 
 Q: Can you calculate the price of a DVD pack if the original price is 76 dollars and there’s a 25 dollar discount?
-Yes, to calculate the price of the DVD pack after applying the discount, you simply subtract the discount amount from the original price. The calculation is as follows:
+To calculate the price of the DVD pack after the discount, subtract the discount amount from the original price. 
 
-\[ \$76 - \$25 = \$51 \]
+Original Price: $76  
+Discount: $25  
 
-So, the price of the DVD pack after a $25 discount is $51.
+Price after discount = $76 - $25 = $51  
+
+The price of the DVD pack after the discount is $51.
+
+Are the following Question-Answer (QA) pairs semantically equivalent?
+Comparing QA Pair 1 and QA Pair 2:
+Guess: Yes  
+Probability: 0.95
+---
+
+Comparing QA Pair 1 and QA Pair 3:
+Guess: Yes  
+Probability: 0.95
+---
+
+Comparing QA Pair 2 and QA Pair 3:
+Guess: Yes  
+Probability: 0.95
+---
 
 
 
