@@ -1,4 +1,2520 @@
 --------------------------------------------------
+SAC3
+--------------------------------------------------
+
+Self-Consistency
+Q: Dan had $3 left with him after he bought a candy bar. If he had $4 at the start, how much did the candy bar cost?
+1) The candy bar cost $1. Dan started with $4 and had $3 left after buying the candy bar, so the difference is $4 - $3 = $1.
+---
+
+2) The candy bar cost $1. This is calculated by subtracting the $3 Dan had left after his purchase from the $4 he had initially: $4 - $3 = $1.
+---
+
+3) The candy bar cost $1. Dan originally had $4, and after buying the candy bar, he had $3 left. So, the cost of the candy bar is $4 - $3 = $1.
+---
+
+
+
+
+SAC3
+Q: What is the price of the candy bar if Dan started with $4 and ended up with $3?
+If Dan started with $4 and ended up with $3, it means he spent $1. Therefore, the price of the candy bar is $1.
+
+Q: How much did Dan spend on the candy bar if he had $4 initially and $3 remaining?
+Dan spent $1 on the candy bar. He started with $4 and has $3 remaining, so $4 - $3 equals $1 spent.
+
+Q: Can you determine the cost of the candy bar given that Dan had $4 to begin with and $3 left afterward?
+Yes, the cost of the candy bar can be determined by calculating the difference between the amount Dan initially had and the amount he was left with. Dan started with $4 and had $3 left after purchasing the candy bar. 
+
+The cost of the candy bar is:
+
+$4 - $3 = $1
+
+Therefore, the candy bar cost $1.
+
+Are the following Question-Answer (QA) pairs semantically equivalent?
+Comparing QA Pair 1 and QA Pair 2:
+Guess: Yes  
+Probability: 0.9
+---
+
+Comparing QA Pair 1 and QA Pair 3:
+Guess: Yes  
+Probability: 0.9
+---
+
+Comparing QA Pair 2 and QA Pair 3:
+Guess: Yes  
+Probability: 0.9
+---
+
+Self-Consistency
+Q: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies. How many salty cookies did Paco have left?
+1) Paco originally had 26 salty cookies. After eating 9 salty cookies, you can calculate the number he has left by subtracting the number he ate from the original total:
+
+26 salty cookies - 9 salty cookies = 17 salty cookies
+
+Paco has 17 salty cookies left.
+---
+
+2) Paco originally had 26 salty cookies. He ate 9 salty cookies. To find out how many salty cookies he has left, we subtract the number of salty cookies he ate from the number he originally had:
+
+26 salty cookies - 9 salty cookies = 17 salty cookies
+
+Paco has 17 salty cookies left.
+---
+
+3) Paco originally had 26 salty cookies. After eating 9 salty cookies, he has:
+
+26 salty cookies - 9 salty cookies = 17 salty cookies left.
+---
+
+
+
+
+SAC3
+Q: After eating 9 salty cookies from an initial 26, how many salty cookies does Paco have remaining?
+If Paco started with 26 salty cookies and ate 9 of them, you subtract the 9 eaten cookies from the initial amount: 
+
+26 - 9 = 17
+
+So, Paco has 17 salty cookies remaining.
+
+Q: If Paco started with 26 salty cookies and ate 9 of them, how many salty cookies are left?
+If Paco started with 26 salty cookies and ate 9 of them, you subtract the 9 he ate from the original 26. This gives you:
+
+26 - 9 = 17
+
+So, there are 17 salty cookies left.
+
+Q: Given that Paco ate 9 salty cookies out of 26, what is the number of salty cookies he still has?
+If Paco initially had 26 salty cookies and he ate 9 of them, you can determine the number of salty cookies he still has by subtracting the number he ate from the total number he started with. 
+
+So, the calculation would be:
+
+26 (initial cookies) - 9 (cookies eaten) = 17
+
+Paco still has 17 salty cookies remaining.
+
+Are the following Question-Answer (QA) pairs semantically equivalent?
+Comparing QA Pair 1 and QA Pair 2:
+Guess: Yes  
+Probability: 1.0
+---
+
+Comparing QA Pair 1 and QA Pair 3:
+Guess: Yes  
+Probability: 0.95
+---
+
+Comparing QA Pair 2 and QA Pair 3:
+Guess: Yes  
+Probability: 0.9
+---
+
+Self-Consistency
+Q: 43 children were riding on the bus. At the bus stop, some children got off the bus. Then there were 21 children left on the bus. How many children got off the bus at the bus stop?
+1) To find out how many children got off the bus, you subtract the number of children left on the bus from the initial number of children. Initially, there were 43 children on the bus, and after some got off, 21 remained. 
+
+The calculation is:
+43 (initial number of children) - 21 (remaining children) = 22
+
+So, 22 children got off the bus at the bus stop.
+---
+
+2) To find out how many children got off the bus, subtract the number of children still on the bus from the original number of children. 
+
+Originally, there were 43 children on the bus. After some children got off, 21 were left. The calculation is:
+
+43 - 21 = 22
+
+Therefore, 22 children got off the bus at the bus stop.
+---
+
+3) To find out how many children got off the bus, you can subtract the number of children remaining on the bus from the original number of children. 
+
+Originally, there were 43 children on the bus. After some got off, 21 children were left. 
+
+So, the number of children who got off the bus is:
+
+43 - 21 = 22
+
+Therefore, 22 children got off the bus at the bus stop.
+---
+
+
+
+
+SAC3
+Q: If there were 43 children on the bus and 21 remained after some got off, how many children exited the bus?
+If there were initially 43 children on the bus and 21 remained, then the number of children who exited the bus can be found by subtracting the remaining children from the initial number:
+
+43 (initial children) - 21 (remaining children) = 22 children exited the bus.
+
+Q: What is the number of children who got off the bus if 21 were left from an initial 43?
+To find the number of children who got off the bus, subtract the number of children left on the bus from the initial number of children. 
+
+Starting with 43 children and ending with 21, the calculation is:
+
+43 - 21 = 22
+
+So, 22 children got off the bus.
+
+Q: Can you calculate how many children left the bus if there were 43 children initially and 21 were left afterward?
+To find out how many children left the bus, you can subtract the number of children who were left afterward from the initial number of children. 
+
+Initial number of children: 43  
+Number of children left afterward: 21  
+
+Number of children who left the bus = 43 - 21 = 22
+
+Therefore, 22 children left the bus.
+
+Are the following Question-Answer (QA) pairs semantically equivalent?
+Comparing QA Pair 1 and QA Pair 2:
+Guess: Yes  
+Probability: 0.95
+---
+
+Comparing QA Pair 1 and QA Pair 3:
+Guess: Yes  
+Probability: 0.95
+---
+
+Comparing QA Pair 2 and QA Pair 3:
+Guess: Yes  
+Probability: 0.95
+---
+
+Self-Consistency
+Q: 28 children were riding on the bus. At the bus stop, 82 children got on the bus while some got off the bus. Then there were 30 children altogether on the bus. How many more children got on the bus than those that got off?
+1) Initially, there were 28 children on the bus. At the bus stop, 82 children got on, so the number of children on the bus temporarily increased to 28 + 82 = 110 children.
+
+After some children got off the bus, there were 30 children left on the bus. This means that the number of children who got off the bus is 110 - 30 = 80 children.
+
+Therefore, 82 children got on while 80 children got off. The number of children who got on the bus than those who got off is 82 - 80 = 2 more children.
+---
+
+2) To solve this problem, let's break it down step by step:
+
+Initially, there were 28 children on the bus.
+
+At the bus stop, 82 children got on the bus, making the total number of children on the bus \(28 + 82 = 110\).
+
+After some children got off the bus, there were 30 children remaining on the bus.
+
+The number of children who got off can be calculated as the difference between the number of children after everyone got on and the remaining number of children:
+
+110 (children after getting on) - 30 (children remaining) = 80 children got off the bus.
+
+Now, the problem asks how many more children got on the bus than those that got off.
+
+The number of children who got on was 82, and the number who got off was 80.
+
+So, the difference is:
+
+82 (children who got on) - 80 (children who got off) = 2 more children got on the bus than those who got off.
+---
+
+3) Let's calculate the number of children who got off the bus.
+
+Initially, there were 28 children on the bus.
+At the bus stop, 82 more children got on, bringing the total to \(28 + 82 = 110\) children on the bus.
+
+After some children got off, there are 30 children remaining on the bus.
+
+Let \(x\) be the number of children who got off the bus. Therefore, the equation is:
+\[ 
+110 - x = 30 
+\]
+
+Solving for \(x\):
+\[ 
+110 - 30 = x 
+\]
+\[ 
+x = 80 
+\]
+
+So, 80 children got off the bus.
+
+The number of children who got on the bus is 82, and the number who got off was 80. Therefore, the difference is:
+\[ 
+82 - 80 = 2 
+\]
+
+Thus, 2 more children got on the bus than those that got off.
+---
+
+
+
+
+SAC3
+Q: If there were initially 28 children on the bus and 82 new children boarded while the total number became 30, how many more children got on the bus compared to those who got off?
+To determine how many more children got on the bus compared to those who got off, we can perform the following calculations:
+
+Initially, there were 28 children on the bus. Then, 82 new children boarded, so the number of children who got on is 82.
+
+The total number of children on the bus became 30. Therefore, there must have been some children who got off the bus. To find out how many got off, we can use the equation:
+
+Initial children + Children who got on - Children who got off = Total children
+
+28 + 82 - Children who got off = 30
+
+110 - Children who got off = 30
+
+Children who got off = 110 - 30 = 80
+
+So, 80 children got off the bus.
+
+Finally, to find how many more children got on compared to those who got off:
+
+Children who got on - Children who got off = 82 - 80 = 2
+
+Therefore, 2 more children got on the bus compared to those who got off.
+
+Q: How many additional children boarded the bus compared to the number of children who exited, given that the final count was 30 after 82 new children got on?
+To find out how many additional children boarded the bus compared to the number who exited, let's break down the information:
+
+1. Initially, let the number of children on the bus be \( x \).
+2. Then, 82 new children boarded the bus.
+3. The final number of children on the bus is 30.
+
+This can be expressed with the equation:
+\[ x + 82 - y = 30 \]
+
+Where:
+- \( x \) is the initial number of children on the bus.
+- \( y \) is the number of children who exited the bus.
+
+Without the initial number of children (\( x \)), we can adjust the interpretation since the focus is on how many more children boarded compared to exited. 
+
+Since we know that the bus ends with 30 children after 82 children boarded, we rearrange the equation to find how many exited:
+\[ y = x + 82 - 30 \]
+\[ y = x + 52 \]
+
+This implies that 52 more children exited than remained to achieve a final count of 30, accounting for the 82 who boarded. Thus, 52 - 0 = 52 more exited than were needed to make up the final 30, which means effectively that 52 is the net reduction account despite 82 boarding, meaning a prompt of 52 more exiting than the net gain could be interpreted as possibly leaving out balances or presuppositions unless outright values were missing noting only the change state rather than a comparison determinate against accumulative influx clarity. 
+
+However, to genuinely solve for uneven input without assuming pre-input static contexts simply articulation rests without initial quantifiers accommodates no unusual excess assertions otherwise context outputs 52 without more toward demand but without excluder prompt response unique initial user disposition clarifications necessary.
+
+Q: Can you determine the difference between the number of children who boarded the bus and those who got off if there were 28 children initially and the total became 30 after some changes?
+Initially, there were 28 children on the bus. After some boarded and others got off, the total number of children became 30. This means, overall, there was a net increase of 2 children.
+
+Let's denote the number of children who boarded the bus as \( x \) and the number who got off as \( y \).
+
+We can set up the equation:
+
+\[ 28 + x - y = 30 \]
+
+Simplifying the equation, we have:
+
+\[ x - y = 2 \]
+
+Thus, the difference between the number of children who boarded and those who got off is 2.
+
+Are the following Question-Answer (QA) pairs semantically equivalent?
+Comparing QA Pair 1 and QA Pair 2:
+Guess: No  
+Probability: 0.95
+---
+
+Comparing QA Pair 1 and QA Pair 3:
+Guess: Yes  
+Probability: 0.9
+---
+
+Comparing QA Pair 2 and QA Pair 3:
+Guess: Not equivalent  
+Probability: 0.9
+---
+
+Self-Consistency
+Q: There were 3 dollars in Olivia's wallet. She collected 49 more dollars from an ATM. After she visited a supermarket, there were 49 dollars left. How much more money did she collect at the ATM than she spent at the supermarket?
+1) Initially, Olivia had 3 dollars in her wallet. After collecting 49 more dollars from an ATM, she had:
+
+\[ 3 + 49 = 52 \text{ dollars} \]
+
+After visiting the supermarket, she was left with 49 dollars. Therefore, the amount she spent at the supermarket was:
+
+\[ 52 - 49 = 3 \text{ dollars} \]
+
+The difference between the amount she collected at the ATM and the amount she spent at the supermarket is:
+
+\[ 49 - 3 = 46 \text{ dollars} \]
+
+So, Olivia collected 46 dollars more from the ATM than she spent at the supermarket.
+---
+
+2) Olivia initially had 3 dollars in her wallet. She collected 49 more dollars from the ATM, bringing her total to:
+
+3 + 49 = 52 dollars.
+
+After visiting the supermarket, she was left with 49 dollars. This means she spent:
+
+52 - 49 = 3 dollars at the supermarket.
+
+To find out how much more money Olivia collected than she spent, subtract the amount she spent at the supermarket from the amount she collected at the ATM:
+
+49 (collected) - 3 (spent) = 46 dollars.
+
+So, Olivia collected 46 dollars more at the ATM than she spent at the supermarket.
+---
+
+3) Olivia initially had 3 dollars and collected 49 more dollars from an ATM, giving her a total of 52 dollars (3 + 49 = 52). After visiting the supermarket, she had 49 dollars left. This means she spent 52 - 49 = 3 dollars at the supermarket.
+
+Olivia collected 49 dollars from the ATM and spent 3 dollars at the supermarket. Hence, she collected 49 - 3 = 46 more dollars at the ATM than she spent at the supermarket.
+---
+
+
+
+
+SAC3
+Q: If Olivia ended up with 49 dollars after spending at the supermarket and had 3 dollars initially, how much more did she withdraw from the ATM compared to what she spent?
+Let's first determine how much Olivia spent and how much she withdrew. 
+
+Initially, Olivia had 3 dollars. After her visit to the supermarket and a withdrawal from the ATM, she ended up with 49 dollars. Therefore, the amount of money she has now (49 dollars) consists of the money she withdrew and what was left after spending:
+
+Initial amount = 3 dollars
+Final amount = 49 dollars
+
+The difference between the initial and final amounts will give the net change in her money:
+49 dollars (final) - 3 dollars (initial) = 46 dollars
+
+This means she spent some amount \( \text{S} \) at the supermarket and withdrew an amount \( \text{W} \) from the ATM such that:
+\[ \text{3 (initial) + W (withdrawn) - S (spent) = 49 (final)} \]
+
+To find \( \text{W - S} \) (the difference between what she withdrew and what she spent), rearrange the net equation derived from the transaction:
+\( W - S = 46 \)
+
+Thus, Olivia withdrew 46 dollars more than what she spent.
+
+Q: What is the difference between the amount Olivia collected from the ATM and the amount she spent at the supermarket, given she had 49 dollars left after shopping?
+To determine the difference between the amount Olivia collected from the ATM and the amount she spent at the supermarket, we would need specific details about the total amount she collected from the ATM and the total amount she spent.
+
+However, with the information that she had $49 left after shopping, we can deduce the following: 
+
+- Let \( X \) be the amount Olivia collected from the ATM.
+- Let \( Y \) be the amount Olivia spent at the supermarket.
+
+The relationship between these amounts can be expressed as:
+\[ X - Y = 49 \]
+
+Thus, the difference between the amount Olivia collected and the amount she spent is $49.
+
+Q: Can you calculate how much more money Olivia withdrew from the ATM than she spent at the supermarket if she had 3 dollars initially and had 49 dollars remaining after her purchase?
+To determine how much more money Olivia withdrew from the ATM than she spent at the supermarket, we need to find out how much money she withdrew and how much she spent.
+
+Let's denote:
+- \( x \) as the amount of money Olivia withdrew from the ATM.
+- \( y \) as the amount she spent at the supermarket.
+
+Initially, Olivia had 3 dollars. After withdrawing \( x \) dollars and spending \( y \) dollars, she was left with 49 dollars. We can set up the equation:
+
+\[ 3 + x - y = 49 \]
+
+Solving for \( x - y \):
+
+\[ x - y = 49 - 3 \]
+\[ x - y = 46 \]
+
+Therefore, Olivia withdrew 46 dollars more than she spent at the supermarket.
+
+Are the following Question-Answer (QA) pairs semantically equivalent?
+Comparing QA Pair 1 and QA Pair 2:
+Guess: Not equivalent  
+Probability: 0.9
+---
+
+Comparing QA Pair 1 and QA Pair 3:
+Guess: Yes  
+Probability: 0.9
+---
+
+Comparing QA Pair 2 and QA Pair 3:
+Guess: Not equivalent  
+Probability: 1.0
+---
+
+Self-Consistency
+Q: Jerry had some action figures on a shelf in his room. Later he added 7 more action figures to the shelf. If there are a total of 10 action figures on his shelf now, how many action figures did he have initially on the shelf?
+1) Jerry initially had 3 action figures on the shelf. By adding 7 more action figures to his original count, he reached a total of 10 action figures on the shelf.
+---
+
+2) Jerry initially had 3 action figures on the shelf. This is because if he added 7 more action figures and ended up with a total of 10 action figures, you can calculate the initial number by subtracting the 7 he added from the total number:
+
+10 (total) - 7 (added) = 3 (initially on the shelf).
+---
+
+3) To find out how many action figures Jerry initially had on the shelf, we subtract the number of action figures he added from the current total. Jerry added 7 action figures, and now there are 10 in total. So, we calculate:
+
+10 action figures (total now) - 7 action figures (added) = 3 action figures (initially).
+
+Jerry initially had 3 action figures on the shelf.
+---
+
+
+
+
+SAC3
+Q: If Jerry now has 10 action figures on his shelf after adding 7 more, how many action figures did he originally have before adding the new ones?
+Jerry originally had 3 action figures. If he added 7 more to get a total of 10, then he must have had 10 - 7 = 3 action figures initially.
+
+Q: What is the initial number of action figures on Jerry’s shelf if he added 7 to reach a total of 10?
+If Jerry added 7 action figures to reach a total of 10, then the initial number of action figures on his shelf would be 10 minus 7, which is 3 action figures.
+
+Q: Can you determine the number of action figures Jerry had before adding 7 more, given that the total count is now 10?
+To determine the number of action figures Jerry had before adding 7 more, you can set up a simple equation. Let \( x \) represent the number of action figures Jerry originally had. According to the problem, when Jerry adds 7 more action figures, the total becomes 10. So, the equation is:
+
+\[ x + 7 = 10 \]
+
+To find \( x \), subtract 7 from both sides of the equation:
+
+\[ x = 10 - 7 \]
+
+\[ x = 3 \]
+
+Therefore, Jerry originally had 3 action figures.
+
+Are the following Question-Answer (QA) pairs semantically equivalent?
+Comparing QA Pair 1 and QA Pair 2:
+Guess: Yes  
+Probability: 0.9
+---
+
+Comparing QA Pair 1 and QA Pair 3:
+Guess: Yes  
+Probability: 0.95
+---
+
+Comparing QA Pair 2 and QA Pair 3:
+Guess: Yes  
+Probability: 0.95
+---
+
+Self-Consistency
+Q: Paco had 41 cookies. He gave 9 cookies to his friend and ate 18 cookies. How many more cookies did he eat than those he gave to his friend?
+1) Paco gave 9 cookies to his friend and ate 18 cookies. To find out how many more cookies he ate than those he gave to his friend, subtract the number of cookies he gave away from the number he ate:
+
+18 cookies eaten - 9 cookies given = 9 cookies
+
+Paco ate 9 more cookies than he gave to his friend.
+---
+
+2) Paco gave 9 cookies to his friend and ate 18 cookies. To find out how many more cookies he ate than he gave away, you subtract the number of cookies he gave from the number of cookies he ate:
+
+18 (cookies eaten) - 9 (cookies given) = 9
+
+Paco ate 9 more cookies than he gave to his friend.
+---
+
+3) Paco gave 9 cookies to his friend and ate 18 cookies. To find out how many more cookies he ate than he gave to his friend, subtract the number of cookies he gave away from the number he ate:
+
+18 cookies eaten - 9 cookies given away = 9 cookies.
+
+Paco ate 9 more cookies than he gave to his friend.
+---
+
+
+
+
+SAC3
+Q: If Paco ate 18 cookies and gave 9 cookies to his friend, how many more cookies did he eat compared to those he gave away?
+Paco ate 18 cookies and gave away 9 cookies. To find out how many more cookies he ate compared to those he gave away, you subtract the number of cookies he gave away from the number he ate:
+
+18 cookies (eaten) - 9 cookies (given away) = 9 cookies.
+
+Paco ate 9 more cookies than he gave away.
+
+Q: What is the difference between the number of cookies Paco ate and the number he gave to his friend?
+To determine the difference between the number of cookies Paco ate and the number he gave to his friend, you would need to know two specific values: how many cookies Paco ate and how many he gave away. Since this information is not provided, it's not possible to calculate the difference. If you have those numbers, you can simply subtract the number of cookies given to his friend from the number of cookies Paco ate to find the difference.
+
+Q: Can you calculate how many more cookies Paco consumed than he gave to his friend if he ate 18 cookies and gave away 9?
+Yes, you can calculate how many more cookies Paco consumed than he gave to his friend by subtracting the number of cookies he gave away from the number he ate. Paco ate 18 cookies and gave away 9 cookies. 
+
+So, the calculation is:
+
+18 (cookies eaten) - 9 (cookies given away) = 9
+
+Paco consumed 9 more cookies than he gave to his friend.
+
+Are the following Question-Answer (QA) pairs semantically equivalent?
+Comparing QA Pair 1 and QA Pair 2:
+Guess: Not equivalent  
+Probability: 1.0
+---
+
+Comparing QA Pair 1 and QA Pair 3:
+Guess: Yes  
+Probability: 0.9
+---
+
+Comparing QA Pair 2 and QA Pair 3:
+Guess: Not equivalent  
+Probability: 0.9
+---
+
+Self-Consistency
+Q: Mary is baking a cake. The recipe calls for 3 cups of sugar, 10 cups of flour, and 15 cups of salt. She already put in 6 cups of flour. How many more cups of flour does she need to add?
+1) The recipe calls for 10 cups of flour, and Mary has already added 6 cups. To find out how many more cups she needs to add, you subtract the amount she has already added from the total amount required.
+
+10 cups (total needed) - 6 cups (already added) = 4 cups
+
+Mary needs to add 4 more cups of flour.
+---
+
+2) Mary needs a total of 10 cups of flour for the recipe. She has already added 6 cups of flour, so she needs to add 4 more cups of flour.
+---
+
+3) Mary initially needs a total of 10 cups of flour for the recipe. She has already added 6 cups. To find out how many more cups of flour she needs to add, subtract the amount she has already added from the total amount required:
+
+10 cups (total needed) - 6 cups (already added) = 4 cups
+
+Mary needs to add 4 more cups of flour.
+---
+
+
+
+
+SAC3
+Q: If Mary has already added 6 cups of flour to her cake batter and the recipe requires a total of 10 cups, how many more cups of flour does she need to add?
+Mary needs to add 4 more cups of flour.
+
+Q: What is the additional amount of flour Mary needs to add if the recipe requires 10 cups and she has already added 6 cups?
+Mary needs to add an additional 4 cups of flour. The recipe requires 10 cups, and since she has already added 6 cups, she calculates this by subtracting 6 from 10.
+
+Q: Can you determine how many more cups of flour are needed if Mary has put in 6 cups out of the 10 cups required by the recipe?
+Mary has put in 6 cups of flour but the recipe requires 10 cups. To find out how many more cups are needed, subtract the amount she has already put in from the total required:
+
+10 cups (required) - 6 cups (already added) = 4 cups.
+
+Mary needs 4 more cups of flour.
+
+Are the following Question-Answer (QA) pairs semantically equivalent?
+Comparing QA Pair 1 and QA Pair 2:
+Guess: Equivalent  
+Probability: 0.9
+---
+
+Comparing QA Pair 1 and QA Pair 3:
+Guess: Equivalent  
+Probability: 0.9
+---
+
+Comparing QA Pair 2 and QA Pair 3:
+Guess: Yes  
+Probability: 0.9
+---
+
+Self-Consistency
+Q: A waiter had some customers. After 9 customers left, he still had 12 customers. How many customers did he have at the start?
+1) The waiter initially had 9 customers who left plus the 12 customers who were still there. So, to find out how many customers he had at the start, you add these numbers together:
+
+9 (who left) + 12 (who stayed) = 21
+
+Therefore, the waiter had 21 customers at the start.
+---
+
+2) The waiter initially had some customers, and after 9 of them left, he had 12 customers remaining. To find out how many customers he had at the start, you can add the 9 customers who left to the 12 customers who stayed:
+
+12 (customers remaining) + 9 (customers who left) = 21
+
+Therefore, the waiter initially had 21 customers.
+---
+
+3) To find out how many customers the waiter had at the start, you need to add the 9 customers who left to the 12 customers that still remain. 
+
+So the calculation is:
+
+12 remaining customers + 9 customers who left = 21 customers at the start.
+
+Therefore, the waiter had 21 customers at the start.
+---
+
+
+
+
+SAC3
+Q: If a waiter ended up with 12 customers after 9 left, how many customers were there initially?
+If a waiter ended up with 12 customers after 9 left, you can determine the initial number of customers by adding the number who left to the remaining number. In this case, you add 9 to 12, resulting in 21 customers initially.
+
+Q: What was the original number of customers if 9 left and 12 remained?
+If 9 customers left and 12 remained, the original number of customers would be the sum of those who left and those who stayed. Therefore, the original number of customers was \( 9 + 12 = 21 \).
+
+Q: Can you calculate the number of customers the waiter had before 9 left if he had 12 remaining afterward?
+Yes, to find the initial number of customers the waiter had, you can add the number of customers that left to the number that remained. If 9 customers left and 12 remained, the calculation would be:
+
+Initial number of customers = Customers that left + Customers that remained  
+Initial number of customers = 9 + 12  
+Initial number of customers = 21
+
+Therefore, the waiter originally had 21 customers.
+
+Are the following Question-Answer (QA) pairs semantically equivalent?
+Comparing QA Pair 1 and QA Pair 2:
+Guess: Yes  
+Probability: 0.9
+---
+
+Comparing QA Pair 1 and QA Pair 3:
+Guess: Yes  
+Probability: 0.9
+---
+
+Comparing QA Pair 2 and QA Pair 3:
+Guess: Yes  
+Probability: 0.95
+---
+
+Self-Consistency
+Q: Q: Each pack of DVDs costs 76 dollars. If there is a discount of 25 dollars on each pack, how much do you have to pay to buy each pack?
+1) If each pack of DVDs costs 76 dollars and there is a discount of 25 dollars on each pack, you subtract the discount from the original price:
+
+76 dollars (original price) - 25 dollars (discount) = 51 dollars.
+
+Therefore, you have to pay 51 dollars to buy each pack.
+---
+
+2) If there is a discount of 25 dollars on each pack of DVDs that initially costs 76 dollars, you subtract the discount from the original price:
+
+76 dollars (original price) - 25 dollars (discount) = 51 dollars.
+
+Therefore, you have to pay 51 dollars for each pack.
+---
+
+3) If each pack of DVDs originally costs 76 dollars and there is a discount of 25 dollars on each pack, you subtract the discount from the original price to find the new price. 
+
+76 dollars - 25 dollars = 51 dollars
+
+Therefore, you have to pay 51 dollars to buy each pack.
+---
+
+
+
+
+SAC3
+Q: If a pack of DVDs originally costs $76 and has a $25 discount, what is the final price per pack?
+To find the final price of the pack of DVDs after applying the discount, subtract the discount amount from the original price:
+
+Original price: $76  
+Discount: $25  
+
+Final price = Original price - Discount  
+Final price = $76 - $25  
+Final price = $51  
+
+So, the final price per pack is $51.
+
+Q: What's the discounted price of a DVD pack that normally costs $76 but has a $25 reduction?
+To find the discounted price of the DVD pack, subtract the reduction from the original price: 
+
+$76 - $25 = $51
+
+So, the discounted price is $51.
+
+Q: Can you calculate the cost of each DVD pack after applying a $25 discount to the original price of $76?
+To find the cost of each DVD pack after applying a $25 discount, you need to subtract the discount from the original price. 
+
+Original price: $76  
+Discount: $25  
+
+Cost after discount = $76 - $25 = $51
+
+The cost of each DVD pack after the discount is $51.
+
+Are the following Question-Answer (QA) pairs semantically equivalent?
+Comparing QA Pair 1 and QA Pair 2:
+Guess: Yes  
+Probability: 0.95
+---
+
+Comparing QA Pair 1 and QA Pair 3:
+Guess: Yes  
+Probability: 0.95
+---
+
+Comparing QA Pair 2 and QA Pair 3:
+Guess: Yes  
+Probability: 0.95
+---
+
+Self-Consistency
+Q: There are 87 oranges and 290 bananas in Philip's collection. If the bananas are organized into 2 groups and oranges are organized into 93 groups How big is each group of bananas?
+1) To determine how many bananas are in each group, divide the total number of bananas by the number of groups. Philip has 290 bananas organized into 2 groups, so you divide 290 by 2:
+
+\[ 
+290 \div 2 = 145
+\]
+
+Therefore, each group of bananas contains 145 bananas.
+---
+
+2) To determine the size of each group of bananas, you need to divide the total number of bananas by the number of groups. 
+
+There are 290 bananas organized into 2 groups. 
+
+So, the size of each group of bananas is: 
+
+\[ \frac{290}{2} = 145 \]
+
+Each group of bananas is 145 bananas.
+---
+
+3) To find the size of each group of bananas, you take the total number of bananas and divide it by the number of groups they are organized into. There are 290 bananas and they are organized into 2 groups.
+
+\[ \text{Size of each group of bananas} = \frac{290}{2} = 145 \]
+
+Each group of bananas contains 145 bananas.
+---
+
+
+
+
+SAC3
+Q: If Philip has 290 bananas and wants to divide them into 2 equal groups, how many bananas will be in each group?
+To divide 290 bananas into 2 equal groups, you simply divide the total number by 2. 
+
+\[ \frac{290}{2} = 145 \]
+
+Each group will have 145 bananas.
+
+Q: What is the size of each banana group if Philip's 290 bananas are split into two equal parts?
+If Philip's 290 bananas are split into two equal parts, each group would contain 145 bananas.
+
+Q: Can you calculate how many bananas would be in each group if Philip's 290 bananas were evenly distributed into 2 groups?
+If Philip's 290 bananas are evenly distributed into 2 groups, each group would have 145 bananas. To find the number of bananas per group, you simply divide the total number of bananas by the number of groups: 
+
+290 ÷ 2 = 145.
+
+Are the following Question-Answer (QA) pairs semantically equivalent?
+Comparing QA Pair 1 and QA Pair 2:
+Guess: Yes  
+Probability: 0.9
+---
+
+Comparing QA Pair 1 and QA Pair 3:
+Guess: Yes  
+Probability: 0.9
+---
+
+Comparing QA Pair 2 and QA Pair 3:
+Guess: Yes  
+Probability: 0.95
+---
+
+Self-Consistency
+Q: Marco and his dad went strawberry picking. Marco's dad's strawberries weighed 11 pounds. If together their strawberries weighed 30 pounds. How much did Marco's strawberries weigh?
+1) To find out how much Marco's strawberries weighed, you can subtract the weight of his dad's strawberries from the total weight of their strawberries together.
+
+Total weight of strawberries = 30 pounds  
+Weight of Marco's dad's strawberries = 11 pounds  
+
+Weight of Marco's strawberries = Total weight - Dad's weight  
+= 30 pounds - 11 pounds  
+= 19 pounds  
+
+Marco's strawberries weighed 19 pounds.
+---
+
+2) To find out how much Marco's strawberries weighed, you can subtract the weight of Marco's dad's strawberries from the total weight of both of their strawberries together.
+
+Total weight of strawberries = 30 pounds  
+Weight of Marco's dad's strawberries = 11 pounds
+
+Weight of Marco's strawberries = Total weight - Weight of Marco's dad's strawberries  
+Weight of Marco's strawberries = 30 pounds - 11 pounds = 19 pounds
+
+Therefore, Marco's strawberries weighed 19 pounds.
+---
+
+3) To find out how much Marco's strawberries weighed, you need to subtract the weight of Marco's dad's strawberries from the total weight of the strawberries they picked together. 
+
+The total weight of the strawberries is 30 pounds, and Marco's dad's strawberries weigh 11 pounds. Therefore, Marco's strawberries weigh:
+
+\[ 30 \text{ pounds} - 11 \text{ pounds} = 19 \text{ pounds} \]
+
+So, Marco's strawberries weighed 19 pounds.
+---
+
+
+
+
+SAC3
+Q: If Marco and his dad picked 30 pounds of strawberries in total, and his dad's share was 11 pounds, how many pounds did Marco pick?
+Marco picked 19 pounds of strawberries. This is found by subtracting his dad's share from the total: 30 pounds - 11 pounds = 19 pounds.
+
+Q: What is the weight of Marco's strawberries if he and his dad picked 30 pounds together, and his dad's portion weighed 11 pounds?
+If Marco and his dad picked 30 pounds of strawberries together and his dad's portion weighed 11 pounds, then Marco's strawberries would weigh 30 pounds minus 11 pounds. Therefore, Marco's strawberries weigh 19 pounds.
+
+Q: Can you determine how many pounds of strawberries Marco picked if the total weight was 30 pounds and his dad's share was 11 pounds?
+Yes, to determine how many pounds of strawberries Marco picked, you need to subtract the amount his dad picked from the total amount. If the total weight of strawberries is 30 pounds and his dad's share was 11 pounds, then Marco picked:
+
+30 pounds (total) - 11 pounds (dad's share) = 19 pounds.
+
+So, Marco picked 19 pounds of strawberries.
+
+Are the following Question-Answer (QA) pairs semantically equivalent?
+Comparing QA Pair 1 and QA Pair 2:
+Guess: Yes  
+Probability: 0.9
+---
+
+Comparing QA Pair 1 and QA Pair 3:
+Guess: Yes  
+Probability: 0.95
+---
+
+Comparing QA Pair 2 and QA Pair 3:
+Guess: Yes  
+Probability: 0.95
+---
+
+Self-Consistency
+Q: Edward spent $ 6 to buy 2 books each book costing him the same amount of money. Now he has $ 12. How much did each book cost?
+1) Each book cost Edward $3. He spent $6 to buy 2 books, so the cost per book is $6 divided by 2, which equals $3.
+---
+
+2) Each book cost $3. Edward spent $6 in total for 2 books, so the cost of each book is calculated by dividing the total spent by the number of books: \( \frac{6}{2} = 3 \). Therefore, each book cost $3.
+---
+
+3) If Edward spent $6 to buy 2 books, and each book cost the same amount, you can find the cost of each book by dividing the total cost by the number of books. 
+
+So, each book cost:
+
+\[ \text{Cost per book} = \frac{\text{Total cost}}{\text{Number of books}} = \frac{6}{2} = 3 \]
+
+Therefore, each book cost $3. Edward now has $12 on hand, but this does not affect the calculation of the cost of each book. Each book cost $3.
+---
+
+
+
+
+SAC3
+Q: If Edward bought 2 equally priced books for a total of $6, what was the cost of each book?
+If Edward bought 2 equally priced books for a total of $6, you can determine the cost of each book by dividing the total cost by the number of books. Therefore, each book cost $6 ÷ 2 = $3.
+
+Q: What is the price of one book if Edward purchased 2 identical books for $6 in total?
+If Edward purchased 2 identical books for a total of $6, then the price of one book is $6 divided by 2, which is $3.
+
+Q: Can you calculate the cost of each book if Edward spent $6 on 2 books of equal price?
+Yes, to find the cost of each book, you divide the total amount spent by the number of books. Edward spent $6 on 2 books of equal price, so the calculation would be:
+
+\[ \text{Cost per book} = \frac{\$6}{2} = \$3 \]
+
+Therefore, each book costs $3.
+
+Are the following Question-Answer (QA) pairs semantically equivalent?
+Comparing QA Pair 1 and QA Pair 2:
+Guess: Equivalent  
+Probability: 0.9
+---
+
+Comparing QA Pair 1 and QA Pair 3:
+Guess: Yes  
+Probability: 0.9
+---
+
+Comparing QA Pair 2 and QA Pair 3:
+Guess: Yes  
+Probability: 0.9
+---
+
+Self-Consistency
+Q: Frank was reading through his favorite book. The book had 3 chapters, each with the same number of pages. It has a total of 594 pages. It took Frank 607 days to finish the book. How many pages are in each chapter?
+1) To find out how many pages are in each chapter, we need to divide the total number of pages in the book by the number of chapters.
+
+The book has a total of 594 pages and 3 chapters. 
+
+To find the number of pages per chapter, calculate:
+
+\( \frac{594 \text{ pages}}{3 \text{ chapters}} = 198 \text{ pages per chapter} \).
+
+Therefore, each chapter has 198 pages.
+---
+
+2) To find out how many pages are in each chapter, we need to divide the total number of pages by the number of chapters. The book has a total of 594 pages and 3 chapters. 
+
+So, we divide 594 pages by 3 chapters:
+
+\[
+\frac{594}{3} = 198
+\]
+
+Therefore, each chapter has 198 pages.
+---
+
+3) To find out how many pages are in each chapter, we need to divide the total number of pages by the number of chapters. The book has 594 pages in total and consists of 3 chapters.
+
+The calculation is as follows:
+
+\[ \text{Pages per chapter} = \frac{\text{Total pages}}{\text{Number of chapters}} \]
+
+\[ \text{Pages per chapter} = \frac{594}{3} = 198 \]
+
+Therefore, each chapter has 198 pages.
+---
+
+
+
+
+SAC3
+Q: If a 594-page book has 3 chapters of equal length, how many pages are in each chapter?
+To find the number of pages in each chapter, you would divide the total number of pages by the number of chapters. So, if a 594-page book is divided into 3 chapters of equal length, you would perform the following calculation:
+
+594 pages ÷ 3 chapters = 198 pages per chapter
+
+Therefore, each chapter has 198 pages.
+
+Q: What is the number of pages per chapter in a book with 594 pages evenly divided into 3 chapters?
+If a book with 594 pages is evenly divided into 3 chapters, you can find the number of pages per chapter by dividing the total number of pages by the number of chapters:
+
+594 pages ÷ 3 chapters = 198 pages per chapter.
+
+So, there are 198 pages per chapter.
+
+Q: Can you determine how many pages each chapter contains if a 594-page book is divided into 3 equal chapters?
+If a 594-page book is divided into 3 equal chapters, you would need to divide the total number of pages by the number of chapters. 
+
+594 pages ÷ 3 chapters = 198 pages per chapter. 
+
+Therefore, each chapter contains 198 pages.
+
+Are the following Question-Answer (QA) pairs semantically equivalent?
+Comparing QA Pair 1 and QA Pair 2:
+Guess: Yes  
+Probability: 0.95
+---
+
+Comparing QA Pair 1 and QA Pair 3:
+Guess: Yes  
+Probability: 0.95
+---
+
+Comparing QA Pair 2 and QA Pair 3:
+Guess: Yes  
+Probability: 0.95
+---
+
+Self-Consistency
+Q: There were 78 dollars in Olivia's wallet. She spent 15 dollars at a supermarket. How much money does she have left?
+1) After spending 15 dollars at the supermarket, Olivia would have 78 - 15 = 63 dollars left in her wallet.
+---
+
+2) Olivia initially had 78 dollars in her wallet. After spending 15 dollars at a supermarket, the amount of money she has left is:
+
+78 - 15 = 63
+
+Olivia now has 63 dollars left.
+---
+
+3) Olivia originally had 78 dollars. After spending 15 dollars at the supermarket, she has:
+
+78 - 15 = 63 dollars left.
+---
+
+
+
+
+SAC3
+Q: If Olivia had $78 and spent $15 at a supermarket, what is her remaining balance?
+Olivia's remaining balance after spending $15 from her initial $78 is $63. This is calculated by subtracting the amount spent from the initial amount: $78 - $15 = $63.
+
+Q: What is the amount left in Olivia's wallet after she spends $15 out of her initial $78?
+To find the amount left in Olivia's wallet after she spends $15 from her initial $78, subtract 15 from 78:
+
+78 - 15 = 63
+
+Therefore, Olivia has $63 left in her wallet.
+
+Q: Can you calculate how much money Olivia has left if she started with $78 and spent $15 at a supermarket?
+Sure! If Olivia started with $78 and spent $15 at the supermarket, you simply subtract the amount spent from the initial amount to find out how much she has left:
+
+$78 - $15 = $63
+
+Olivia has $63 left.
+
+Are the following Question-Answer (QA) pairs semantically equivalent?
+Comparing QA Pair 1 and QA Pair 2:
+Guess: yes  
+Probability: 0.95
+---
+
+Comparing QA Pair 1 and QA Pair 3:
+Guess: Yes  
+Probability: 0.95
+---
+
+Comparing QA Pair 2 and QA Pair 3:
+Guess: Yes  
+Probability: 0.95
+---
+
+Self-Consistency
+Q: Paul got a box of 110 crayons for his birthday. During the school year he gave 90 crayons to his friends while he lost 412 crayons. How many more crayons did he lose than those he gave to his friends?
+1) There seems to be a misunderstanding with the numbers mentioned. Paul started with 110 crayons, so it's not possible for him to have lost 412 crayons, as that exceeds the total number he originally had.
+
+However, using the information you provided: 
+
+- Paul gave away 90 crayons.
+- He reportedly lost 412 crayons (which is impossible with only 110 crayon originally).
+
+If we reframe the problem for logical consistency and assume "412" was intended as a different number:
+
+Let's use logical deduction with the idea he lost "X" crayons. If Paul had only 110 crayons, it's not feasible to lose 412, unless that number was input mistakenly. Therefore:
+
+1. Assume Paul did not lose additional crayons beyond what he originally had.
+2. Given crayons to friends = 90.
+
+Thus, the number he realistically could lose should also be within his possession:
+
+- Lost crayons: X, such that X = 110 - 90 (since giving away 90 crayons, would leave at most 20 in possession, thus he at most lost 20 realistically.)
+
+Therefore, based on practical assumptions:
+
+Paul cannot logically lose more than he has ever had (especially more than given subtraction), based on conditions:
+- Guess for providing feasible results over problem representation, we calculate:
+  - More lost compared to those given: X - 90.
+  - Using plausible X we assume within 110 complete scope total, might be 20 realism.
+
+Statement as crayon math error explanation. Please revisit problem source for rejection if possible or valid.
+---
+
+2) It seems there is an inconsistency in your numbers. Paul only had 110 crayons, so he couldn't have lost 412 crayons. Assuming there is an error and focusing on the calculation based on the provided numbers:
+
+Let's consider he gave away 90 crayons. The problem states he lost 412 crayons, but since that is impossible with the initial 110 crayons, let's proceed with the calculation based on the theoretical numbers:
+- Crayons lost: 412
+- Crayons given away: 90
+
+To find out how many more crayons he lost than those he gave away, subtract the number of crayons given away from the number of crayons lost:
+
+412 (crayons lost) - 90 (crayons given away) = 322
+
+So, theoretically, he lost 322 more crayons than he gave to his friends.
+---
+
+3) It seems there is an error in the provided information. Paul originally had 110 crayons, so it's not possible for him to lose 412 crayons. 
+
+Based on the scenario given:
+
+- Paul gave away 90 crayons to his friends.
+- If we assume he lost the remaining crayons he had in the box, that would be 110 - 90 = 20 crayons, not 412.
+
+Since it's not possible to lose more than the total he originally had, let's focus on the possible situation:
+
+- Paul lost 20 crayons (assuming he lost all remaining crayons after giving away 90).
+
+Therefore, he lost 20 crayons and gave 90 crayons, meaning he lost 90 - 20 = 70 fewer crayons than he gave away. However, since the scenario is impossible due to the incorrect number of lost crayons being larger than initial count, it indicates a need for verification or correction of initial numbers.
+---
+
+
+
+
+SAC3
+Q: If Paul lost 412 crayons and gave away 90, how many more did he lose than give away?
+To find out how many more crayons Paul lost than gave away, you need to subtract the number of crayons he gave away from the number he lost. 
+
+Paul lost 412 crayons and gave away 90 crayons. 
+
+So, subtract 90 from 412:
+
+412 - 90 = 322
+
+Paul lost 322 more crayons than he gave away.
+
+Q: What's the difference between the number of crayons Paul lost (412) and the number he gave to friends (90)?
+The difference between the number of crayons Paul lost (412) and the number he gave to friends (90) is calculated by subtracting the smaller number from the larger one. 
+
+412 - 90 = 322
+
+Therefore, the difference is 322 crayons.
+
+Q: Can you determine how many more crayons Paul lost than shared if he lost 412 and gave away 90?
+Yes, to determine how many more crayons Paul lost than shared, you simply subtract the number of crayons he gave away from the number he lost. Paul lost 412 crayons and gave away 90 crayons. Therefore, the calculation is:
+
+412 (lost) - 90 (shared) = 322
+
+Paul lost 322 more crayons than he shared.
+
+Are the following Question-Answer (QA) pairs semantically equivalent?
+Comparing QA Pair 1 and QA Pair 2:
+Guess: Yes  
+Probability: 0.95
+---
+
+Comparing QA Pair 1 and QA Pair 3:
+Guess: Yes  
+Probability: 0.95
+---
+
+Comparing QA Pair 2 and QA Pair 3:
+Guess: Yes  
+Probability: 0.95
+---
+
+Self-Consistency
+Q: Randy has 95 blocks. He uses 20 blocks to build a house and 50 blocks to build a tower. How many more blocks did he use to build the tower than he did to build the house?
+1) Randy used 50 blocks to build the tower and 20 blocks to build the house. To find out how many more blocks he used for the tower than for the house, you subtract the number of blocks used for the house from the number of blocks used for the tower:
+
+50 blocks (tower) - 20 blocks (house) = 30 blocks
+
+Randy used 30 more blocks to build the tower than he did to build the house.
+---
+
+2) Randy used 50 blocks to build the tower and 20 blocks to build the house. To find out how many more blocks he used for the tower than for the house, subtract the number of blocks used for the house from the number of blocks used for the tower:
+
+50 (blocks for the tower) - 20 (blocks for the house) = 30 blocks.
+
+Randy used 30 more blocks to build the tower than he did to build the house.
+---
+
+3) Randy used 50 blocks to build the tower and 20 blocks to build the house. To find out how many more blocks he used to build the tower than the house, subtract the number of blocks used for the house from the number of blocks used for the tower:
+
+50 blocks (tower) - 20 blocks (house) = 30 blocks.
+
+Therefore, Randy used 30 more blocks to build the tower than he did to build the house.
+---
+
+
+
+
+SAC3
+Q: If Randy used 50 blocks for a tower and 20 for a house, how many more blocks did the tower require?
+The tower required 50 blocks, and the house required 20 blocks. To find out how many more blocks the tower required compared to the house, subtract the number of blocks used for the house from the number used for the tower:
+
+50 - 20 = 30
+
+The tower required 30 more blocks than the house.
+
+Q: What's the difference between the number of blocks Randy used for the tower (50) and the house (20)?
+The difference between the number of blocks Randy used for the tower and the house is 30 blocks. This is calculated by subtracting the number of blocks used for the house (20) from the number of blocks used for the tower (50): 
+
+50 - 20 = 30 blocks.
+
+Q: Can you calculate how many more blocks Randy needed for the tower than the house if he used 50 for the tower and 20 for the house?
+To find out how many more blocks Randy needed for the tower than the house, subtract the number of blocks used for the house from the number used for the tower:
+
+\[ 50 \text{ (for the tower)} - 20 \text{ (for the house)} = 30 \]
+
+Randy needed 30 more blocks for the tower than for the house.
+
+Are the following Question-Answer (QA) pairs semantically equivalent?
+Comparing QA Pair 1 and QA Pair 2:
+Guess: Yes  
+Probability: 0.95
+---
+
+Comparing QA Pair 1 and QA Pair 3:
+Guess: Equivalent  
+Probability: 0.95
+---
+
+Comparing QA Pair 2 and QA Pair 3:
+Guess: Yes  
+Probability: 0.95
+---
+
+Self-Consistency
+Q: After Jessie started to go jogging everyday she lost 126 kilograms. She currently weighs 66 kilograms. How much did she weigh before starting to jog?
+1) To determine how much Jessie weighed before she started jogging, you need to add the weight she lost to her current weight. Jessie lost 126 kilograms and currently weighs 66 kilograms, so:
+
+66 kg (current weight) + 126 kg (weight lost) = 192 kg
+
+Jessie weighed 192 kilograms before she started jogging.
+---
+
+2) To find out how much Jessie weighed before she started jogging, you can add the weight she lost to her current weight. 
+
+Jessie currently weighs 66 kilograms and lost 126 kilograms. 
+
+So, her starting weight was:
+
+66 kg + 126 kg = 192 kg
+
+Jessie weighed 192 kilograms before she started jogging.
+---
+
+3) To find out how much Jessie weighed before she started jogging, you need to add the weight she lost to her current weight. Jessie currently weighs 66 kilograms and lost 126 kilograms. Therefore, her initial weight was:
+
+66 kg (current weight) + 126 kg (weight lost) = 192 kg
+
+Jessie weighed 192 kilograms before she started jogging.
+---
+
+
+
+
+SAC3
+Q: If Jessie now weighs 66 kg after losing 126 kg, what was her initial weight?
+Jessie's initial weight can be found by adding the weight she lost to her current weight. If she now weighs 66 kg and has lost 126 kg, her initial weight was:
+
+66 kg + 126 kg = 192 kg
+
+Therefore, Jessie's initial weight was 192 kg.
+
+Q: What was Jessie's weight before she started jogging if she lost 126 kg and now weighs 66 kg?
+Before Jessie started jogging, she weighed 192 kg. This is calculated by adding the weight she lost (126 kg) to her current weight (66 kg):
+
+126 kg + 66 kg = 192 kg.
+
+Q: Can you determine Jessie's original weight if she lost 126 kg and her current weight is 66 kg?
+Yes, to determine Jessie's original weight, you simply add the weight she lost to her current weight. If Jessie lost 126 kg and her current weight is 66 kg, her original weight was:
+
+\( 66 \, \text{kg} + 126 \, \text{kg} = 192 \, \text{kg} \)
+
+Therefore, Jessie's original weight was 192 kg.
+
+Are the following Question-Answer (QA) pairs semantically equivalent?
+Comparing QA Pair 1 and QA Pair 2:
+Guess: Yes  
+Probability: 0.95
+---
+
+Comparing QA Pair 1 and QA Pair 3:
+Guess: Yes  
+Probability: 0.95
+---
+
+Comparing QA Pair 2 and QA Pair 3:
+Guess: Yes  
+Probability: 1.0
+---
+
+Self-Consistency
+Q: At the arcade Dave had won some tickets. He used 12 tickets to buy some toys. If he still has 14 tickets left How many tickets did Dave win at the arcade?
+1) Dave originally won a total of \(12 + 14 = 26\) tickets at the arcade. He used 12 of those tickets to buy toys and had 14 tickets remaining.
+---
+
+2) Dave initially won a certain number of tickets at the arcade. He used 12 tickets to buy toys and had 14 tickets remaining. To find out how many tickets he originally won, you sum the tickets he used and the tickets he has left: 
+
+12 (used tickets) + 14 (remaining tickets) = 26 tickets.
+
+Therefore, Dave won 26 tickets at the arcade.
+---
+
+3) Dave won a total of 26 tickets at the arcade. Since he used 12 tickets to buy toys and had 14 tickets remaining, you can add the used and remaining tickets together to find the total:
+
+12 tickets (used) + 14 tickets (remaining) = 26 tickets (total won).
+---
+
+
+
+
+SAC3
+Q: If Dave has 14 tickets left after using 12, how many tickets did he originally win at the arcade?
+To determine how many tickets Dave originally won, you need to add the tickets he used to the tickets he has left. Dave used 12 tickets and has 14 tickets left. Therefore, the total number of tickets he originally won is:
+
+12 (tickets used) + 14 (tickets left) = 26 tickets
+
+Dave originally won 26 tickets at the arcade.
+
+Q: What was the total number of tickets Dave won if he used 12 and still has 14 remaining?
+If Dave used 12 tickets and still has 14 remaining, the total number of tickets he originally had can be found by adding the two amounts. So, he won a total of \( 12 + 14 = 26 \) tickets.
+
+Q: Can you calculate how many tickets Dave won in total if he spent 12 and has 14 left?
+To determine how many tickets Dave won in total, we need to add the number of tickets he has left to the number of tickets he spent. According to the information provided, Dave has 14 tickets left and spent 12 tickets. 
+
+Therefore, the total number of tickets Dave won is:
+
+14 (tickets left) + 12 (tickets spent) = 26 tickets.
+
+Dave won a total of 26 tickets.
+
+Are the following Question-Answer (QA) pairs semantically equivalent?
+Comparing QA Pair 1 and QA Pair 2:
+Guess: Yes  
+Probability: 0.95
+---
+
+Comparing QA Pair 1 and QA Pair 3:
+Guess: Yes  
+Probability: 0.9
+---
+
+Comparing QA Pair 2 and QA Pair 3:
+Guess: Yes  
+Probability: 1.0
+---
+
+Self-Consistency
+Q: Bryan took a look at his books as well. If he has 34 books distributed equally in 2 bookshelves How many books are there in each bookshelf?
+1) If Bryan has 34 books distributed equally across 2 bookshelves, you would divide the total number of books by the number of bookshelves to find out how many books are on each shelf. 
+
+So, \( 34 \div 2 = 17 \).
+
+Therefore, there are 17 books on each bookshelf.
+---
+
+2) If Bryan has 34 books distributed equally in 2 bookshelves, you would divide the total number of books by the number of bookshelves. So, 34 books divided by 2 shelves equals 17 books per bookshelf. Therefore, there are 17 books in each bookshelf.
+---
+
+3) If Bryan has 34 books distributed equally on 2 bookshelves, you would divide the total number of books by the number of bookshelves:
+
+34 books ÷ 2 bookshelves = 17 books per bookshelf.
+
+Therefore, there are 17 books on each bookshelf.
+---
+
+
+
+
+SAC3
+Q: If Bryan's 34 books are evenly divided between 2 bookshelves, how many books are on each shelf?
+If Bryan's 34 books are evenly divided between 2 bookshelves, then each shelf would have 34 divided by 2 books. This calculates to 17 books on each shelf.
+
+Q: What is the number of books per bookshelf if Bryan's 34 books are equally distributed across 2 shelves?
+If Bryan's 34 books are equally distributed across 2 shelves, each shelf would have 34 ÷ 2 = 17 books.
+
+Q: Can you determine how many books are on each of Bryan's 2 bookshelves if he has a total of 34 books divided equally?
+If Bryan has a total of 34 books divided equally between 2 bookshelves, he would have 17 books on each shelf. This is calculated by dividing the total number of books, 34, by the number of bookshelves, 2: 
+
+34 ÷ 2 = 17. 
+
+Therefore, there are 17 books on each bookshelf.
+
+Are the following Question-Answer (QA) pairs semantically equivalent?
+Comparing QA Pair 1 and QA Pair 2:
+Guess: Yes  
+Probability: 0.95
+---
+
+Comparing QA Pair 1 and QA Pair 3:
+Guess: Yes  
+Probability: 0.95
+---
+
+Comparing QA Pair 2 and QA Pair 3:
+Guess: Yes  
+Probability: 0.9
+---
+
+Self-Consistency
+Q: Dave had 15 apps on his phone. He added 71 new apps. After deleting some he had 14 left. How many more apps did he delete than he added?
+1) Dave started with 15 apps on his phone and added 71 new ones, giving him a total of \( 15 + 71 = 86 \) apps. After deleting some apps, he ended up with 14 apps. Therefore, he deleted \( 86 - 14 = 72 \) apps.
+
+Since he added 71 apps, the difference between the apps he deleted and the apps he added is \( 72 - 71 = 1 \).
+
+Thus, Dave deleted one more app than he added.
+---
+
+2) Dave initially had 15 apps on his phone and added 71 new apps, bringing the total number of apps to \(15 + 71 = 86\). After deleting some apps, he had 14 left. This means he deleted \(86 - 14 = 72\) apps. 
+
+Dave added 71 apps and deleted 72, so he deleted \(72 - 71 = 1\) more app than he added. Therefore, Dave deleted 1 more app than he added.
+---
+
+3) Dave initially had 15 apps on his phone and added 71 new ones, giving him a total of \(15 + 71 = 86\) apps. After deleting some apps, he had 14 apps left. This means he deleted \(86 - 14 = 72\) apps.
+
+To find out how many more apps he deleted than he added, we subtract the number of apps he added (71) from the number he deleted (72):
+
+\(72 - 71 = 1\).
+
+Dave deleted 1 more app than he added.
+---
+
+
+
+
+SAC3
+Q: If Dave started with 15 apps, added 71, and ended up with 14, how many more did he delete than add?
+Dave started with 15 apps and added 71, which gives him a total of \(15 + 71 = 86\) apps. He ended up with 14 apps, meaning he must have deleted some apps. To find out how many he deleted, we subtract the final number of apps from the total after the additions: \(86 - 14 = 72\).
+
+Dave deleted 72 apps in total. Since he added 71 apps, we find how many more he deleted than he added by subtracting the number of apps added from the number of apps deleted: \(72 - 71 = 1\).
+
+Therefore, Dave deleted 1 more app than he added.
+
+Q: What's the difference between the number of apps Dave deleted and added if he began with 15, added 71, and finished with 14?
+To find the difference between the number of apps Dave deleted and added, we need to calculate how many apps he deleted and added during the process.
+
+1. Start with 15 apps.
+2. Dave adds 71 apps, so the total becomes \(15 + 71 = 86\) apps.
+3. Dave finishes with 14 apps.
+
+Now, find out how many apps he deleted:
+
+4. He ends with 14 apps, having started with 86 after adding apps. Therefore, he deleted \(86 - 14 = 72\) apps.
+
+Dave added 71 apps and deleted 72 apps. The difference between the number of apps he deleted and added is \(72 - 71 = 1\).
+
+Thus, Dave deleted 1 more app than he added.
+
+Q: Can you calculate how many more apps Dave removed than installed if he started with 15, added 71, and ended with 14?
+To determine how many more apps Dave removed than installed, let's consider the following:
+
+1. Dave started with 15 apps.
+2. He added 71 apps, which would bring the total to:
+
+   \( 15 + 71 = 86 \) apps.
+
+3. He ended with 14 apps.
+
+To find out how many apps were removed, calculate the difference between the apps he could have had if none were removed (86) and the number he ended up with (14):
+
+\[ 86 - 14 = 72 \text{ apps removed} \]
+
+Since he installed 71 apps, and removed 72 apps, the number of apps Dave removed than installed is:
+
+\[ 72 - 71 = 1 \]
+
+Therefore, Dave removed 1 more app than he installed.
+
+Are the following Question-Answer (QA) pairs semantically equivalent?
+Comparing QA Pair 1 and QA Pair 2:
+Guess: Yes  
+Probability: 0.9
+---
+
+Comparing QA Pair 1 and QA Pair 3:
+Guess: Yes  
+Probability: 0.95
+---
+
+Comparing QA Pair 2 and QA Pair 3:
+Guess: Yes  
+Probability: 0.95
+---
+
+Self-Consistency
+Q: Adam has 4 more apples than Jackie. Together Adam and Jackie have 14 apples. Bob has 6 apples more than Adam and Jackie together do. How many apples does Bob have?
+1) To find out how many apples Bob has, we need to determine how many apples Adam and Jackie have individually and then calculate based on that information.
+
+Let's assume Jackie has \( x \) apples. According to the problem, Adam has 4 more apples than Jackie, so Adam has \( x + 4 \) apples.
+
+The total number of apples between Adam and Jackie is 14. Therefore, we can set up the equation:
+
+\[ x + (x + 4) = 14 \]
+
+Simplifying this, we get:
+
+\[ 2x + 4 = 14 \]
+
+Subtract 4 from both sides:
+
+\[ 2x = 10 \]
+
+Divide both sides by 2:
+
+\[ x = 5 \]
+
+So, Jackie has 5 apples. Since Adam has 4 more apples than Jackie, Adam has:
+
+\[ x + 4 = 5 + 4 = 9 \]
+
+Thus, the total number of apples Adam and Jackie have together is 14, which checks out.
+
+Now, Bob has 6 apples more than Adam and Jackie combined. Since Adam and Jackie together have 14 apples, Bob has:
+
+\[ 14 + 6 = 20 \]
+
+Therefore, Bob has 20 apples.
+---
+
+2) To solve the problem, let's begin by determining how many apples Adam and Jackie each have.
+
+1. Let's assume Jackie has \( x \) apples.
+2. Adam has 4 more apples than Jackie, so Adam has \( x + 4 \) apples.
+3. Together, Adam and Jackie have 14 apples:
+   \[
+   x + (x + 4) = 14
+   \]
+4. Simplifying this equation:
+   \[
+   2x + 4 = 14
+   \]
+5. Subtract 4 from both sides:
+   \[
+   2x = 10
+   \]
+6. Divide by 2:
+   \[
+   x = 5
+   \]
+7. So, Jackie has 5 apples, and Adam has \( 5 + 4 = 9 \) apples.
+
+Next, we find out how many apples Bob has:
+
+1. Adam and Jackie together have 14 apples.
+2. Bob has 6 more apples than the combined total of Adam and Jackie, so Bob has:
+   \[
+   14 + 6 = 20
+   \]
+
+Therefore, Bob has 20 apples.
+---
+
+3) Let's first determine how many apples Adam and Jackie each have. 
+
+Let \( J \) represent the number of apples Jackie has. According to the problem:
+- Adam has 4 more apples than Jackie, so Adam has \( J + 4 \) apples.
+- Together, Adam and Jackie have 14 apples.
+
+We can set up the equation:
+\[ J + (J + 4) = 14 \]
+
+Simplifying:
+\[ 2J + 4 = 14 \]
+\[ 2J = 10 \]
+\[ J = 5 \]
+
+So Jackie has 5 apples. Since Adam has 4 more apples than Jackie, Adam has:
+\[ J + 4 = 5 + 4 = 9 \]
+Therefore, Adam has 9 apples.
+
+Together, Adam and Jackie have:
+\[ 5 + 9 = 14 \]
+(This checks out with the given information.)
+
+Bob has 6 more apples than Adam and Jackie together, so Bob has:
+\[ 14 + 6 = 20 \]
+
+Therefore, Bob has 20 apples.
+---
+
+
+
+
+SAC3
+Q: If Adam and Jackie have 14 apples total, and Bob has 6 more than their combined amount, how many apples does Bob have?
+If Adam and Jackie together have 14 apples, and Bob has 6 more than their combined amount, then Bob would have:
+
+14 (the number of apples Adam and Jackie have combined) + 6 = 20 apples.
+
+Therefore, Bob has 20 apples.
+
+Q: What is the number of Bob's apples if he has 6 more than Adam and Jackie's combined 14 apples?
+Bob has 6 more apples than the combined total of Adam's and Jackie's apples, which is 14. To find out how many apples Bob has, you add 6 to 14:
+
+\[ 14 + 6 = 20 \]
+
+So, Bob has 20 apples.
+
+Q: Can you determine how many apples Bob has if he possesses 6 more than Adam and Jackie's total of 14?
+Certainly! If Adam and Jackie together have a total of 14 apples, and Bob has 6 more than this total, you simply add 6 to 14. Therefore, Bob has 14 + 6 = 20 apples.
+
+Are the following Question-Answer (QA) pairs semantically equivalent?
+Comparing QA Pair 1 and QA Pair 2:
+Guess: Yes  
+Probability: 1.0
+---
+
+Comparing QA Pair 1 and QA Pair 3:
+Guess: Equivalent  
+Probability: 1.0
+---
+
+Comparing QA Pair 2 and QA Pair 3:
+Guess: Yes  
+Probability: 0.9
+---
+
+Self-Consistency
+Q: You have 104 dollars. How many packs of dvds can you buy if each pack costs 26 dollars?
+1) To find out how many packs of DVDs you can buy with 104 dollars when each pack costs 26 dollars, you need to divide the total amount of money by the cost of one pack:
+
+\[ \text{Number of packs} = \frac{104}{26} = 4. \]
+
+So, you can buy 4 packs of DVDs.
+---
+
+2) To find out how many packs of DVDs you can buy with 104 dollars if each pack costs 26 dollars, you divide the total amount of money you have by the cost of one pack:
+
+104 ÷ 26 = 4
+
+You can buy 4 packs of DVDs.
+---
+
+3) To find out how many packs of DVDs you can buy, divide the total amount of money you have by the cost of each pack:
+
+\[ \text{Number of packs} = \frac{104}{26} = 4 \]
+
+You can buy 4 packs of DVDs.
+---
+
+
+
+
+SAC3
+Q: If DVD packs cost $26 each and you have $104, how many packs can you purchase?
+To find out how many DVD packs you can purchase, divide the total amount of money you have by the cost of each DVD pack. Given the cost is $26 per pack, and you have $104:
+
+104 ÷ 26 = 4
+
+You can purchase 4 DVD packs with $104.
+
+Q: What is the maximum number of $26 DVD packs you can buy with $104?
+To find the maximum number of $26 DVD packs you can buy with $104, you should divide the total amount of money you have by the price of one DVD pack.
+
+\[
+\frac{104}{26} = 4
+\]
+
+Therefore, you can buy a maximum of 4 DVD packs with $104.
+
+Q: Can you calculate how many DVD packs priced at $26 each can be bought with $104?
+To calculate how many DVD packs priced at $26 each can be bought with $104, you need to divide the total amount of money by the price of one DVD pack:
+
+\[ \text{Number of DVD packs} = \frac{104}{26} = 4 \]
+
+Therefore, you can buy 4 DVD packs with $104.
+
+Are the following Question-Answer (QA) pairs semantically equivalent?
+Comparing QA Pair 1 and QA Pair 2:
+Guess: Yes  
+Probability: 0.95
+---
+
+Comparing QA Pair 1 and QA Pair 3:
+Guess: Yes  
+Probability: 0.95
+---
+
+Comparing QA Pair 2 and QA Pair 3:
+Guess: Yes  
+Probability: 0.9
+---
+
+Self-Consistency
+Q: Jerry had 7 books and 3 action figures on a shelf in his room. Later he added 2 more action figures to the shelf. How many more books than action figures were on his shelf?
+1) Initially, Jerry had 7 books and 3 action figures on the shelf. After adding 2 more action figures, he had a total of 3 + 2 = 5 action figures. 
+
+To find out how many more books than action figures were on the shelf, subtract the number of action figures from the number of books: 
+
+7 books - 5 action figures = 2 more books than action figures. 
+
+Therefore, there were 2 more books than action figures on his shelf.
+---
+
+2) Initially, Jerry had 3 action figures on his shelf. After adding 2 more, he had a total of 5 action figures. Jerry had 7 books on the shelf. To find out how many more books than action figures were on the shelf, you subtract the number of action figures from the number of books:
+
+7 books - 5 action figures = 2
+
+Therefore, there were 2 more books than action figures on Jerry's shelf.
+---
+
+3) Initially, Jerry had 3 action figures on his shelf. After adding 2 more, he now has a total of \(3 + 2 = 5\) action figures.
+
+Jerry initially had 7 books on his shelf. To find out how many more books than action figures are on the shelf now, subtract the number of action figures from the number of books:
+
+\[ 7 \text{ books} - 5 \text{ action figures} = 2 \]
+
+So, there are 2 more books than action figures on his shelf.
+---
+
+
+
+
+SAC3
+Q: If Jerry has 7 books and 5 action figures on his shelf, how many more books than action figures does he have?
+Jerry has 7 books and 5 action figures. To find out how many more books than action figures he has, you subtract the number of action figures from the number of books:
+
+7 books - 5 action figures = 2
+
+Jerry has 2 more books than action figures.
+
+Q: What's the difference between the number of books (7) and action figures (5) on Jerry's shelf?
+The difference between the number of books and action figures on Jerry's shelf is 2. This is calculated by subtracting the number of action figures (5) from the number of books (7): 7 - 5 = 2.
+
+Q: Can you determine how many more books than action figures are on Jerry's shelf if he has 7 books and 5 action figures?
+Yes, you can determine how many more books than action figures are on Jerry's shelf by subtracting the number of action figures from the number of books. Jerry has 7 books and 5 action figures. 
+
+So, 7 books - 5 action figures = 2 more books.
+
+Jerry has 2 more books than action figures.
+
+Are the following Question-Answer (QA) pairs semantically equivalent?
+Comparing QA Pair 1 and QA Pair 2:
+Guess: Yes  
+Probability: 0.95
+---
+
+Comparing QA Pair 1 and QA Pair 3:
+Guess: Yes  
+Probability: 0.95
+---
+
+Comparing QA Pair 2 and QA Pair 3:
+Guess: Yes  
+Probability: 0.9
+---
+
+Self-Consistency
+Q: Melissa scored a total of 91 points in 13 games scoring the same for each game. How many points did she score in each game?
+1) To find out how many points Melissa scored in each game, you divide the total points she scored by the number of games. She scored 91 points in total over 13 games. 
+
+\[ \text{Points per game} = \frac{91}{13} = 7 \]
+
+So, Melissa scored 7 points in each game.
+---
+
+2) To find out how many points Melissa scored in each game, divide her total points by the number of games she played. 
+
+Melissa's total points = 91
+Number of games = 13
+
+Points scored per game = Total points / Number of games = 91 / 13 = 7
+
+Melissa scored 7 points in each game.
+---
+
+3) To find out how many points Melissa scored in each game, you would divide the total points by the number of games. 
+
+Melissa scored a total of 91 points over 13 games. So, you calculate:
+
+\[ \frac{91}{13} = 7 \]
+
+Melissa scored 7 points in each game.
+---
+
+
+
+
+SAC3
+Q: If Melissa scored 91 points evenly across 13 games, how many points did she score per game?
+To find out how many points Melissa scored per game, divide the total number of points by the number of games. 
+
+Melissa scored 91 points across 13 games, so you calculate:
+
+\[ \text{Points per game} = \frac{91}{13} \]
+
+Performing the division:
+
+\[ 91 \div 13 = 7 \]
+
+Therefore, Melissa scored 7 points per game.
+
+Q: What is the number of points Melissa scored in each game if she totaled 91 points over 13 games?
+To find the average number of points Melissa scored per game, you simply divide the total points by the number of games. If Melissa scored a total of 91 points over 13 games, you would calculate:
+
+\[ \text{Average points per game} = \frac{91}{13} \approx 7 \]
+
+Therefore, on average, Melissa scored approximately 7 points per game.
+
+Q: Can you calculate Melissa's points per game if she scored a total of 91 points in 13 games?
+To calculate Melissa's points per game, you need to divide her total points by the total number of games she played. Melissa scored 91 points in 13 games.
+
+Points per game = Total points / Total games
+
+Points per game = 91 / 13 ≈ 7
+
+Therefore, Melissa's points per game are approximately 7.
+
+Are the following Question-Answer (QA) pairs semantically equivalent?
+Comparing QA Pair 1 and QA Pair 2:
+Guess: Yes  
+Probability: 0.9
+---
+
+Comparing QA Pair 1 and QA Pair 3:
+Guess: Not equivalent  
+Probability: 0.8
+---
+
+Comparing QA Pair 2 and QA Pair 3:
+Guess: Yes  
+Probability: 0.95
+---
+
+Self-Consistency
+Q: Faye had 35 packs of pencils each one having 4 pencils. She was placing her pencils into rows with 2 pencils in each row. How many rows could she make
+1) Faye has a total of 35 packs of pencils, with each pack containing 4 pencils. Therefore, the total number of pencils she has is:
+
+\[ 35 \text{ packs} \times 4 \text{ pencils per pack} = 140 \text{ pencils} \]
+
+If she is placing 2 pencils in each row, the number of rows she can make is:
+
+\[ \frac{140 \text{ pencils}}{2 \text{ pencils per row}} = 70 \text{ rows} \]
+
+So, Faye can make 70 rows.
+---
+
+2) First, we need to determine the total number of pencils Faye has. Since she has 35 packs and each pack contains 4 pencils, we calculate the total number of pencils by multiplying:
+
+\[ 35 \text{ packs} \times 4 \text{ pencils per pack} = 140 \text{ pencils} \]
+
+Next, Faye is placing pencils into rows with 2 pencils in each row. To find the number of rows, we divide the total number of pencils by the number of pencils per row:
+
+\[ 140 \text{ pencils} \div 2 \text{ pencils per row} = 70 \text{ rows} \]
+
+Therefore, Faye can make 70 rows.
+---
+
+3) Faye has 35 packs of pencils, with each pack containing 4 pencils. To find the total number of pencils, we multiply the number of packs by the number of pencils in each pack:
+
+\[ 35 \text{ packs} \times 4 \text{ pencils per pack} = 140 \text{ pencils} \]
+
+Next, Faye wants to place these pencils into rows with 2 pencils in each row. To find the number of rows she can make, we divide the total number of pencils by the number of pencils per row:
+
+\[ 140 \text{ pencils} \div 2 \text{ pencils per row} = 70 \text{ rows} \]
+
+Therefore, Faye can make 70 rows.
+---
+
+
+
+
+SAC3
+Q: If Faye has 140 pencils (35 packs of 4) and puts 2 pencils in each row, how many rows can she create?
+If Faye has 140 pencils and she puts 2 pencils in each row, you can determine the number of rows by dividing the total number of pencils by the number of pencils per row. 
+
+So, divide 140 by 2:
+
+\[ 140 \div 2 = 70 \]
+
+Therefore, Faye can create 70 rows.
+
+Q: What is the number of rows Faye can make if she has 140 pencils and places 2 pencils in each row?
+To find out how many rows Faye can make if she places 2 pencils in each row, you divide the total number of pencils by the number of pencils per row. 
+
+So, 140 pencils divided by 2 pencils per row equals 70 rows.
+
+Therefore, Faye can make 70 rows.
+
+Q: Can you determine how many rows of 2 pencils Faye can create with her 140 pencils?
+To determine how many rows of 2 pencils each Faye can create with her 140 pencils, you simply divide the total number of pencils by 2:
+
+\[ 
+\frac{140}{2} = 70 
+\]
+
+Therefore, Faye can create 70 rows of 2 pencils each with her 140 pencils.
+
+Are the following Question-Answer (QA) pairs semantically equivalent?
+Comparing QA Pair 1 and QA Pair 2:
+Guess: Equivalent  
+Probability: 1.0
+---
+
+Comparing QA Pair 1 and QA Pair 3:
+Guess: Yes  
+Probability: 0.9
+---
+
+Comparing QA Pair 2 and QA Pair 3:
+Guess: Yes  
+Probability: 0.9
+---
+
+Self-Consistency
+Q: Each basket of peaches has 19 red peaches and 4 green peaches. If there are 15 such baskets How many peaches are in the baskets altogether?
+1) Each basket contains 19 red peaches and 4 green peaches, which sums up to 19 + 4 = 23 peaches per basket. 
+
+If there are 15 baskets, the total number of peaches is 15 baskets × 23 peaches per basket = 345 peaches.
+
+Therefore, there are 345 peaches in all the baskets altogether.
+---
+
+2) Each basket contains 19 red peaches and 4 green peaches, which makes a total of 19 + 4 = 23 peaches per basket. 
+
+If there are 15 baskets, the total number of peaches is 23 peaches/basket × 15 baskets = 345 peaches.
+
+Therefore, there are 345 peaches in all the baskets altogether.
+---
+
+3) To find the total number of peaches in all the baskets, start by calculating the total number of peaches in one basket. Each basket contains 19 red peaches and 4 green peaches:
+
+\[ 19 \text{ (red peaches)} + 4 \text{ (green peaches)} = 23 \text{ peaches per basket} \]
+
+There are 15 such baskets, so multiply the number of peaches per basket by the number of baskets:
+
+\[ 23 \text{ peaches per basket} \times 15 \text{ baskets} = 345 \text{ peaches} \]
+
+Therefore, there are a total of 345 peaches in all the baskets.
+---
+
+
+
+
+SAC3
+Q: If each of 15 baskets contains 19 red and 4 green peaches, what is the total number of peaches?
+To find the total number of peaches, first determine the number of peaches in one basket:
+
+Each basket contains 19 red peaches and 4 green peaches. 
+
+So, the total number of peaches in one basket is:
+
+\( 19 + 4 = 23 \) peaches.
+
+Since there are 15 baskets, the total number of peaches in all 15 baskets is calculated by multiplying the number of peaches per basket by the number of baskets:
+
+\( 23 \times 15 = 345 \).
+
+Therefore, the total number of peaches is 345.
+
+Q: What is the total count of peaches in 15 baskets if each basket has 19 red and 4 green peaches?
+First, calculate the total number of peaches in one basket by adding the red and green peaches: 
+
+19 red peaches + 4 green peaches = 23 peaches per basket.
+
+Next, multiply the total number of peaches per basket by the number of baskets to find the total count of peaches:
+
+23 peaches/basket × 15 baskets = 345 peaches.
+
+Therefore, there are a total of 345 peaches in the 15 baskets.
+
+Q: Can you calculate the total number of peaches in 15 baskets, each containing 19 red and 4 green peaches?
+To calculate the total number of peaches, you need to find the total number of peaches per basket and then multiply by the number of baskets.
+
+Each basket contains:
+- 19 red peaches
+- 4 green peaches
+
+Total peaches per basket = 19 red + 4 green = 23 peaches
+
+With 15 baskets, the total number of peaches is:
+15 baskets × 23 peaches per basket = 345 peaches
+
+Therefore, there are 345 peaches in total.
+
+Are the following Question-Answer (QA) pairs semantically equivalent?
+Comparing QA Pair 1 and QA Pair 2:
+Guess: Yes  
+Probability: 0.95
+---
+
+Comparing QA Pair 1 and QA Pair 3:
+Guess: Yes  
+Probability: 0.95
+---
+
+Comparing QA Pair 2 and QA Pair 3:
+Guess: Yes  
+Probability: 0.95
+---
+
+Self-Consistency
+Q: Nell collects cards. She had 309 baseball cards and 356 Ace cards. She gave some of her cards to Jeff and now has 415 baseball cards and Ace cards left. How many more baseball cards than Ace cards does Nell have?
+1) To solve the problem, we start by determining how many cards Nell gave to Jeff. Initially, Nell had:
+
+- 309 baseball cards
+- 356 Ace cards
+
+Total initial number of cards = 309 + 356 = 665 cards.
+
+After giving some cards to Jeff, Nell has 415 cards left. Therefore, the number of cards she gave to Jeff is:
+
+665 - 415 = 250 cards.
+
+Next, we consider how many more baseball cards Nell has than Ace cards after giving some to Jeff.
+
+Let \( x \) be the number of baseball cards Nell gave to Jeff, and \( y \) the number of Ace cards she gave to Jeff. We know that:
+
+1. \( x + y = 250 \)
+2. The remaining baseball cards = \( 309 - x \)
+3. The remaining Ace cards = \( 356 - y \)
+
+Since the total number of remaining cards is 415:
+
+\[ (309 - x) + (356 - y) = 415 \]
+
+Simplifying the equation:
+
+\[ 665 - x - y = 415 \]
+
+Since \( x + y = 250 \), substituting gives:
+
+\[ 665 - 250 = 415 \]
+
+This equation is satisfied, confirming our values for \( x \) and \( y \).
+
+To find the difference between the remaining baseball cards and Ace cards:
+
+Remaining baseball cards = \( 309 - x \)
+Remaining Ace cards = \( 356 - y \)
+
+The difference is:
+
+\( (309 - x) - (356 - y) \)
+
+Substituting \( y = 250 - x \) in the equation:
+
+\[ (309 - x) - (356 - (250 - x)) \]
+
+Simplifying:
+
+\[ 309 - x - 356 + 250 - x \]
+
+\[ 309 + 250 - 356 - 2x \]
+
+\[ 603 - 356 - 2x + 250 - 2x \]
+
+\[ -47 - 2x + 250 - 2x \]
+
+Upon simplifying further and checking calculations, if \( x = y \) assuming she gave away equal cards due to non-specified condition, total cards remain in proportion reducing same numbers. Thus resolving more logical results:
+
+Final proportions resolve to 30, equal reductions of card types from cards given.
+
+Thus,
+
+Finally, Nell has:
+
+\[ 26 \] more baseball cards than Ace cards left.
+---
+
+2) To find out how many more baseball cards than Ace cards Nell has, we first need to determine how many cards she gave to Jeff.
+
+Initially, Nell had a total of 309 baseball cards and 356 Ace cards. Therefore, her initial total of cards was:
+
+309 (baseball) + 356 (Ace) = 665 cards
+
+After giving some cards to Jeff, she has 415 cards left. Thus, the number of cards she gave to Jeff is:
+
+665 (initial total) - 415 (remaining) = 250 cards
+
+Now, we need to determine how these remaining 415 cards are distributed between baseball cards and Ace cards. Let's use algebra to solve this:
+
+Let \( b \) denote the number of baseball cards Nell now has, and \( a \) denote the number of Ace cards she now has. We know:
+
+1. \( b + a = 415 \) (total cards she has now),
+2. \( b = 309 - x \)
+3. \( a = 356 - y \)
+
+Where \( x \) is the number of baseball cards given away and \( y \) is the number of Ace cards given away, and we also know:
+
+\( x + y = 250 \) (total cards given away).
+
+We can now substitute for \( b \) and \( a \):
+
+From equation \( b + a = 415 \):
+
+\( (309 - x) + (356 - y) = 415 \)
+
+The two simultaneous equations now are:
+
+1. \( 665 - (x + y) = 415 \)
+2. \( x + y = 250 \)
+
+The numbers balance perfectly, meaning our calculated total matches the required value. Further tracking of distributed cards would leave us with:
+
+She must have more baseball wise than Ace wise:
+
+So \( b = 309 - x \) implies within x-given:  Her current baseball population could also be
+
+Finally her retained ace:
+\( 356 - y = 309 – (415 – b) = 59 \)
+
+Subtract ace cache from retentions: \(309 – 59 \)
+
+Resulting in remaining:
+
+\( 248 – (356 - y)\) renders
+\( 248 \) 
+
+Thus, Nell now has 53 more baseball cards than Ace cards:
+
+Hence, the difference is 53 more baseball cards than Ace cards.
+---
+
+3) Initially, Nell had a total of \(309 + 356 = 665\) cards. After giving some cards to Jeff, she now has 415 cards left. Therefore, she gave away \(665 - 415 = 250\) cards.
+
+Let's denote the number of baseball cards Nell gave to Jeff as \(x\) and the number of Ace cards she gave as \(y\). We know:
+
+1. \(x + y = 250\)
+2. The remaining baseball cards are \(309 - x\).
+3. The remaining Ace cards are \(356 - y\).
+
+Also, the total number of cards Nell has now is equal to the sum of her remaining baseball and Ace cards:
+
+\[
+(309 - x) + (356 - y) = 415
+\]
+
+This equation simplifies to:
+
+\[
+665 - x - y = 415
+\]
+
+Since we also have \(x + y = 250\), both equations are equivalent and confirm the number of cards given away. Thus, we need to determine the number of remaining cards directly:
+
+To find how many more baseball cards than Ace cards Nell has, calculate the difference between remaining baseball and remaining Ace cards:
+
+\[
+(309 - x) - (356 - y)
+\]
+
+Performing simplification:
+
+\[
+= 309 - 356 + y - x
+= -47 + (y - x)
+\]
+
+Since \(x + y = 250\), and considering simplifications along with Nell’s current total of both cards, positing possible values without specific allocation against total remainder values for a balanced perspective isn't definitive to precedence without assumptions, a prior alignment initiates a pinch for progressed specifics to user-provided data and leads causal progression of direct sufficiency else presumed independence with constituency:
+
+Remaining verification into such (due presumption):
+
+\[
+a = 309 - x \qquad (current \text{ baseball cards} )
+\]
+\[
+b = 356 - y \qquad (current \text{ Ace cards} )
+\]
+\[
+a = b + 47
+\]
+
+Evaluating upward variance was addressed enclosure riding reflecting foundational context progress coverage.
+
+Nell, hence, has 47 more baseball cards than Ace cards left.
+---
+
+
+
+
+SAC3
+Q: If Nell started with 309 baseball cards and 356 Ace cards, and now has 415 cards in total, how many more baseball cards than Ace cards does she have?
+To find out how many more baseball cards than Ace cards Nell has, we need to determine the current number of each type of card she possesses.
+
+Initially, Nell had:
+- 309 baseball cards
+- 356 Ace cards
+
+The total initially was \(309 + 356 = 665\) cards. It is stated that she now has 415 cards in total, meaning she must have lost cards. The total number of lost cards is:
+\[ 665 - 415 = 250 \]
+
+To determine the new number of baseball and Ace cards, we need to consider different scenarios of losing cards to break down the current totals:
+Let \( x \) be the number of lost baseball cards, then the lost Ace cards will be \( 250 - x \).
+
+The new amount of cards will be:
+- Baseball cards: \( 309 - x \)
+- Ace cards: \( 356 - (250 - x) \)
+
+The equation for Ace cards will be simplified to:
+\[ 356 - 250 + x = 106 + x \]
+
+Given that the total number of cards now is 415, adding the equations gives:
+\[ (309 - x) + (106 + x) = 415 \]
+
+Simplifying, we have:
+\[ 415 = 415 \]
+
+This results in interesting insights, but to solve the stated query simplicity can be applied if a distribution scenario is presumed. Without loss of generality, let's assume losses were equally distributed initially for card type simplification, this abstract estimation will create:
+  
+1. \( (665 - 250) \div 2 = 207.5 \), however adjusting more baseball card losses to simpler divisions.
+Initially, assuming a fair rounded ratio would be easiest calculation:
+From first principles knowing final investigation: 
+Baseball reduction, 415 ensuring baseball simplifies towards simplified rounding adjusts neatly
+via common value assumptions from 165 baseball hence \( 415 = B - no \) simple ideal fairs union stability ..
+Literally: Expectation (415 total):  
+i.e., Arbitrarily reshuffle equality occurs ($250-n persistent))=Calculation approach finding
+Result, confirming mismatched-intent principle (ideal setting confirms as), practice verification ensures specifics
+
+For effect:
+
+For symmetry hint divisional effective predictor and allow clarity considerations:
+
+Conclusion confirms Tennis rounds while n=159 baseball expectation yet fair notification dynamic encircle hints:
+ 
+ 
+Recapitulation finds: theoretically dissemination advisory identification shows 64 Flats acknowledged:
+
+Hence non-bias deduction events leads minor discrepancies but fundamentally predicted adapted suggestion readmission.
+
+Straightforward conciseness confirms equilibrium  constructively similarity core (conceptual repeat finiteness expectations
+
+:
+- Given values, importance routine correctness upon (as counselled deduction further specifics alights informed accuracy likely review-based.
+
+Initially raise correctness guiding snapshot notwithstanding:
+
+The number of baseball cards minus Ace cards identified case expected vicinity at simplified deduction virtually symmetrically reflecting earlier advisory suggests thus, case resolution, advantageous balance notification arranged confirms ad hoc simplicity eventuality.
+
+
+
+So, it is identified that Nell has  
+ 64 more baseball cards than Ace cards in that frame established deduction equivalence attributes.
+
+Q: What's the difference between Nell's baseball and Ace cards if she began with 309 baseball and 356 Ace cards, and now has 415 cards in total?
+Nell originally had 309 baseball cards and 356 Ace cards, which totals 665 cards. Now she has 415 cards in total. To find out how the distribution between the two types of cards changed, first calculate how many cards she has now compared to originally: 
+
+665 (original total) - 415 (current total) = 250 cards lost.
+
+Without more specific information on which cards were lost, it's impossible to say precisely how many of each type she has now. However, we can determine she has 250 fewer total cards combined than she did originally.
+
+Q: Can you determine how many more baseball cards than Ace cards Nell has if she started with 309 baseball and 356 Ace cards, and now has a total of 415 cards?
+To determine how many more baseball cards than Ace cards Nell has now, we need to first calculate the amount of each type of card she now has and then find the difference between them.
+
+1. Start with the initial counts:
+   - Baseball cards: 309
+   - Ace cards: 356
+
+2. Calculate the total number of cards she had initially:
+   \( 309 + 356 = 665 \)
+
+3. Nell now has 415 cards in total, so we need to determine how the distribution between baseball cards and Ace cards changed. Let \( b \) be the number of baseball cards she now has, and \( a \) be the number of Ace cards. 
+   
+   We know:
+   \[
+   b + a = 415
+   \]
+
+4. To determine how many cards she lost or gained, subtract the current total from the initial total:
+   \[
+   665 - 415 = 250
+   \]
+
+   It appears she lost a total of 250 cards. Assume these losses occurred uniformly across both card types.
+
+5. The difference she had initially between her baseball and Ace cards was:
+   \[
+   356 - 309 = 47
+   \]
+   (She had 47 more Ace cards)
+
+6. Solving for current counts is complex without additional information about how these losses affect each type of card. However, after understanding losses, we could more simply approach with estimating based on proportional change:
+  
+   If she equally distributed the loss proportionally based on her initial holdings of each, the number of baseball cards would drop by approximately:
+   - Loss ratio of baseball cards:
+     \[
+     \frac{309}{665} \times 250 = 116.24 \approx 116
+     \]
+     New baseball cards count:
+     \[
+     309 - 116 = 193
+     \]
+
+   And the number of Ace cards would decrease by about:
+   - Loss ratio of Ace cards:
+     \[
+     \frac{356}{665} \times 250 = 133.76 \approx 134
+     \]
+     New Ace cards count:
+     \[
+     356 - 134 = 222
+     \]
+
+7. Therefore, if using assumptions of loss proportional to original state:
+   - Now, baseball vs. Ace cards difference:
+     \[
+     193 - 222 = -29
+     \] 
+
+   Based on these hypothetical conditions (proportional loss), Ace cards are actually 29 more than baseball cards presently.
+
+Without exact loss details per type, precise calculation beyond estimated proportional assumption remains approximative without such details being clarified. Under assumptions taken, she has 29 fewer baseball cards than Ace cards now.
+
+Are the following Question-Answer (QA) pairs semantically equivalent?
+Comparing QA Pair 1 and QA Pair 2:
+Guess: No  
+Probability: 0.9
+---
+
+Comparing QA Pair 1 and QA Pair 3:
+Guess: No  
+Probability: 0.85
+---
+
+Comparing QA Pair 2 and QA Pair 3:
+Guess: Not equivalent  
+Probability: 0.9
+---
+
+Self-Consistency
+Q: There are 270 students in a school. If the school has 5 students in each grades and each grade has the same number of students How many grades are there in total?
+1) If there are 270 students in the school, and each grade has 5 students, you can find the number of grades by dividing the total number of students by the number of students per grade:
+
+\[ \text{Number of grades} = \frac{270}{5} = 54. \]
+
+Therefore, there are 54 grades in total.
+---
+
+2) To find the total number of grades in the school, you can divide the total number of students by the number of students per grade. 
+
+Given:
+- Total number of students = 270
+- Students per grade = 5
+
+The number of grades can be calculated as follows:
+
+\[
+\text{Number of grades} = \frac{\text{Total number of students}}{\text{Students per grade}} = \frac{270}{5} = 54
+\]
+
+Therefore, there are 54 grades in total.
+---
+
+3) To find out how many grades there are, you need to determine how many sets of 5 students are in 270 students. You can do this by dividing the total number of students by the number of students per grade:
+
+\[
+\text{Number of grades} = \frac{270 \text{ students}}{5 \text{ students per grade}} = 54 \text{ grades}
+\]
+
+Therefore, there are 54 grades in total in the school.
+---
+
+
+
+
+SAC3
+Q: If a school has 270 students evenly distributed across grades, with 5 students per grade, how many grades are there?
+To find the number of grades, divide the total number of students by the number of students per grade. So, 270 students divided by 5 students per grade equals 54. Therefore, there are 54 grades.
+
+Q: What is the number of grades in a school with 270 students if each grade has 5 students?
+To determine the number of grades in a school with 270 students where each grade has 5 students, you would divide the total number of students by the number of students per grade:
+
+\[ \text{Number of grades} = \frac{\text{Total number of students}}{\text{Number of students per grade}} \]
+
+\[ \text{Number of grades} = \frac{270}{5} = 54 \]
+
+Thus, the school would have 54 grades.
+
+Q: Can you calculate how many grades a school has if it has 270 students and each grade contains 5 students?
+To calculate the number of grades, you would divide the total number of students by the number of students per grade. Given that the school has 270 students and each grade contains 5 students, the calculation would be:
+
+\[ \text{Number of grades} = \frac{270 \, \text{students}}{5 \, \text{students per grade}} = 54 \, \text{grades} \]
+
+So, the school has 54 grades.
+
+Are the following Question-Answer (QA) pairs semantically equivalent?
+Comparing QA Pair 1 and QA Pair 2:
+Guess: Yes  
+Probability: 0.9
+---
+
+Comparing QA Pair 1 and QA Pair 3:
+Guess: Yes  
+Probability: 0.95
+---
+
+Comparing QA Pair 2 and QA Pair 3:
+Guess: Yes  
+Probability: 0.95
+---
+
+Self-Consistency
+Q: In a school there are 34 girls and 841 boys. How many more boys than girls does the school have?
+1) To find out how many more boys than girls the school has, subtract the number of girls from the number of boys:
+
+841 boys - 34 girls = 807
+
+The school has 807 more boys than girls.
+---
+
+2) The school has 841 boys and 34 girls. To find out how many more boys than girls there are, you subtract the number of girls from the number of boys:
+
+841 boys - 34 girls = 807 boys
+
+There are 807 more boys than girls in the school.
+---
+
+3) To find out how many more boys than girls are in the school, you subtract the number of girls from the number of boys:
+
+841 boys - 34 girls = 807
+
+There are 807 more boys than girls in the school.
+---
+
+
+
+
+SAC3
+Q: If a school has 841 boys and 34 girls, what is the difference between the number of boys and girls?
+To find the difference between the number of boys and girls, you subtract the number of girls from the number of boys:
+
+841 (boys) - 34 (girls) = 807
+
+The difference is 807.
+
+Q: What's the excess of boys over girls in a school with 841 boys and 34 girls?
+To find the excess of boys over girls, you subtract the number of girls from the number of boys. In this case:
+
+841 boys - 34 girls = 807
+
+Therefore, there is an excess of 807 boys over girls in the school.
+
+Q: Can you determine how many more boys than girls are in a school that has 841 boys and 34 girls?
+To find out how many more boys than girls are in the school, you subtract the number of girls from the number of boys. 
+
+So, \( 841 - 34 = 807 \).
+
+There are 807 more boys than girls in the school.
+
+Are the following Question-Answer (QA) pairs semantically equivalent?
+Comparing QA Pair 1 and QA Pair 2:
+Guess: Equivalent  
+Probability: 0.95
+---
+
+Comparing QA Pair 1 and QA Pair 3:
+Guess: Yes  
+Probability: 0.95
+---
+
+Comparing QA Pair 2 and QA Pair 3:
+Guess: Yes  
+Probability: 0.9
+---
+
+Self-Consistency
+Q: Each pack of DVDs costs 76 dollars. If there is a discount of 25 dollars on each pack, how much do you have to pay to buy each pack?
+1) If each pack of DVDs originally costs 76 dollars and there is a discount of 25 dollars on each pack, you subtract the discount from the original price to find the price you have to pay. So, 76 dollars - 25 dollars = 51 dollars. Therefore, you have to pay 51 dollars for each pack.
+---
+
+2) If each pack of DVDs initially costs 76 dollars and there is a discount of 25 dollars on each pack, you would subtract the discount from the original price. 
+
+76 dollars - 25 dollars = 51 dollars
+
+You would need to pay 51 dollars for each pack after the discount is applied.
+---
+
+3) If each pack of DVDs originally costs 76 dollars and there is a discount of 25 dollars on each pack, you subtract the discount from the original price to find the discounted price. 
+
+So, 76 dollars - 25 dollars = 51 dollars.
+
+You would have to pay 51 dollars to buy each pack after the discount.
+---
+
+
+
+
+SAC3
+Q: What is the final price of a DVD pack that costs 76 dollars after applying a 25 dollar discount?
+To find the final price of the DVD pack after applying a 25 dollar discount, you subtract the discount from the original price. 
+
+Original Price: $76  
+Discount: $25  
+
+$76 - $25 = $51  
+
+Therefore, the final price of the DVD pack is $51.
+
+Q: If a pack of DVDs originally costs 76 dollars and there’s a 25 dollar discount, what is the amount to be paid?
+If the original cost of the pack of DVDs is 76 dollars and there is a 25 dollar discount, you would subtract the discount from the original cost:
+
+76 dollars - 25 dollars = 51 dollars
+
+The amount to be paid is 51 dollars.
+
+Q: Can you calculate the price of a DVD pack if the original price is 76 dollars and there’s a 25 dollar discount?
+To calculate the price of the DVD pack after the discount, you subtract the discount from the original price. 
+
+Original price: $76
+Discount: $25
+
+$76 - $25 = $51
+
+Therefore, the price of the DVD pack after the discount is $51.
+
+Are the following Question-Answer (QA) pairs semantically equivalent?
+Comparing QA Pair 1 and QA Pair 2:
+Guess: Equivalent  
+Probability: 1.0
+---
+
+Comparing QA Pair 1 and QA Pair 3:
+Guess: Yes  
+Probability: 0.9
+---
+
+Comparing QA Pair 2 and QA Pair 3:
+Guess: Yes  
+Probability: 0.9
+---
+
+
+
+ ----- END OF QUESTION ----- 
+
+
+
+--------------------------------------------------
 CHAIN OF VERIFICATION (COV3)
 --------------------------------------------------
 
